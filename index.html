@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset="UTF-8">
+<title>Module Calculator</title>
+
+<style>
+
+    input, select {
+        text-align: center !important;
+        min-width: 20% !important;
+    }
+
+</style>
+
+<!--
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+-->
+<link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" crossorigin="anonymous">
+
+<h3 class="m-3 text-center">Tool zum Vergleichen von Samsung LED Modulen</h3>
+
+
+<div class="card-group">
+
+    <fieldset class="card" disabled>
+        <div class="card-header">Optionen - Fläche</div>
+        <div class="card-body">
+
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">Länge</div>
+                </div>
+                <input class="form-control" id="INPUT_AREA_LENGTH" type="number" value="0.8" step="0.1">
+                <div class="input-group-append">
+                    <div class="input-group-text">m</div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">Breite</div>
+                </div>
+                <input id="INPUT_AREA_WIDTH" class="form-control" type="number" value="0.8" step="0.1">
+                <div class="input-group-append">
+                    <div class="input-group-text">m</div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">Fläche</div>
+                </div>
+                <input id="OUTPUT_AREA" class="form-control bg-dark text-light" type="number" value="0.64" readonly/>
+                <div class="input-group-append">
+                    <div class="input-group-text">m²</div>
+                </div>
+            </div>
+
+        </div>
+    </fieldset>
+
+    <fieldset class="card" disabled>
+        <div class="card-header">Optionen - Licht</div>
+        <div class="card-body">
+
+            <div class="input-group" data-toggle="tooltip"
+                 title="Für die Blüte wird bei Pflanzen eine Beleuchtungsstärke von 50000-70000 lm/m² empfohlen">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">Lichtstromd.</div>
+                </div>
+                <input id="OUTPUT_LUMEN" class="form-control bg-dark text-light" type="number" value="60000" readonly>
+                <div class="input-group-append">
+                    <div class="input-group-text">lm/m² (Lux)</div>
+                </div>
+            </div>
+            <input id="INPUT_LUMEN" class="custom-range" type="range" min="10000" max="99999" value="60000"
+                   step="1000">
+
+            <br>
+            <br>
+
+            <div class="input-group" data-toggle="tooltip"
+                 title="Zum Vergleich: NDL und E27 haben eine Effizienz von maximal 150 lm/W">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">Min. Effizienz</div>
+                </div>
+                <input id="OUTPUT_EFFICIENCY" class="form-control bg-dark text-light" type="number" readonly>
+                <div class="input-group-append">
+                    <div class="input-group-text">lm/W</div>
+                </div>
+            </div>
+            <input id="INPUT_EFFICIENCY" class="custom-range" type="range" step="1">
+
+        </div>
+    </fieldset>
+
+
+    <fieldset class="card" disabled>
+        <div class="card-header">Optionen - Farbe</div>
+        <div class="card-body">
+
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">Farbtemperatur (CCT)</div>
+                </div>
+                <select id="SELECT_CCT" class="form-control"> </select>
+                <div class="input-group-append">
+                    <div class="input-group-text">K</div>
+                </div>
+            </div>
+
+        </div>
+    </fieldset>
+
+    <fieldset class="card w-50" disabled>
+        <div class="card-header">Optionen - Verbrauch</div>
+        <div class="card-body">
+
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">Vegetation</div>
+                </div>
+                <input class="form-control" id="INPUT_VEGETATION_DAYS" type="number" value="35">
+                <div class="input-group-append">
+                    <div class="input-group-text">Tage</div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">Blüte</div>
+                </div>
+                <input class="form-control" id="INPUT_FLOWERING_DAYS" type="number" value="63">
+                <div class="input-group-append">
+                    <div class="input-group-text">Tage</div>
+                </div>
+            </div>
+
+        </div>
+    </fieldset>
+
+</div>
+
+<table id="TABLE" class="table table-dark table-hover"></table>
+
+</head>
+
+<body>
+
+<script src="js/table-handler.js" type="text/javascript"></script>
+<script src="js/data-handler.js" type="text/javascript"></script>
+<script src="js/module-calculator.js" type="text/javascript"></script>
+<script src="js/specs.js" type="text/javascript"></script>
+
+<script>
+
+    // ========================================================= Area
+
+    let INPUT_AREA_LENGTH = document.getElementById("INPUT_AREA_LENGTH");
+    let INPUT_AREA_WIDTH = document.getElementById("INPUT_AREA_WIDTH");
+    let OUTPUT_AREA = document.getElementById("OUTPUT_AREA");
+    INPUT_AREA_LENGTH.addEventListener("input", handleAreaInput);
+    INPUT_AREA_WIDTH.addEventListener("input", handleAreaInput);
+
+    function handleAreaInput() {
+        OUTPUT_AREA.value = (INPUT_AREA_LENGTH.value * INPUT_AREA_WIDTH.value).toFixed(2);
+        generateTable(true);
+    }
+
+    // ========================================================= Color
+
+    let SELECT_CCT = document.getElementById("SELECT_CCT");
+    SELECT_CCT.addEventListener("change", () => {
+        generateTable(true);
+    });
+
+    function setSelectOptions(select, values, defaultValue) {
+        values.sort();
+
+        for (let value of values) {
+            let option = document.createElement("OPTION");
+            option.text = value;
+            if (value == defaultValue) {
+                option.selected = true;
+            }
+            select.add(option);
+        }
+    }
+
+    // ========================================================= Lumen
+
+    let OUTPUT_LUMEN = document.getElementById("OUTPUT_LUMEN");
+    let INPUT_LUMEN = document.getElementById("INPUT_LUMEN");
+    INPUT_LUMEN.addEventListener("input", setOutputLumen);
+    INPUT_LUMEN.addEventListener("change", generateTable);
+
+    function setOutputLumen() {
+        OUTPUT_LUMEN.value = INPUT_LUMEN.value;
+    }
+
+    // ========================================================= Efficiency
+
+    let OUTPUT_EFFICIENCY = document.getElementById("OUTPUT_EFFICIENCY");
+    let INPUT_EFFICIENCY = document.getElementById("INPUT_EFFICIENCY");
+    INPUT_EFFICIENCY.addEventListener("input", setOutputEfficiency);
+    INPUT_EFFICIENCY.addEventListener("change", generateTable);
+
+    function setInputRange(input, output, min, max) {
+        input.min = Math.round(min);
+        input.max = Math.round(max);
+        input.value = input.min;
+        output.value = input.value;
+    }
+
+    function setOutputEfficiency() {
+        OUTPUT_EFFICIENCY.value = INPUT_EFFICIENCY.value;
+    }
+
+    // ========================================================= Usage
+
+    let INPUT_VEGETATION_DAYS = document.getElementById("INPUT_VEGETATION_DAYS");
+    let INPUT_FLOWERING_DAYS = document.getElementById("INPUT_FLOWERING_DAYS");
+    INPUT_VEGETATION_DAYS.addEventListener("input", generateTable);
+    INPUT_FLOWERING_DAYS.addEventListener("input", generateTable);
+
+    function getGrowHours() {
+        return INPUT_VEGETATION_DAYS.value * 12 + INPUT_FLOWERING_DAYS.value * 18;
+    }
+
+    // ========================================================= Table
+
+    let TABLE = document.getElementById("TABLE");
+
+    function generateTable(updateRange = false) {
+        let moduleList = cloneArray(MODULE_LIST);
+
+        moduleList = filterModulesByArea(moduleList, INPUT_AREA_LENGTH.value, INPUT_AREA_WIDTH.value);
+
+        moduleList = filterModulesByCCT(moduleList, SELECT_CCT.value);
+
+        moduleList = calculateModules(moduleList, INPUT_LUMEN.value, OUTPUT_AREA.value, getGrowHours());
+
+        if (updateRange === true) {
+            let efficiencyRange = getEfficiencyRange(moduleList);
+            setInputRange(INPUT_EFFICIENCY, OUTPUT_EFFICIENCY, efficiencyRange.worst, efficiencyRange.best);
+        }
+
+        moduleList = filterModulesByEfficiency(moduleList, INPUT_EFFICIENCY.value);
+
+        moduleList.sort(compareEfficiency);
+
+        updateTable(TABLE, moduleList);
+    }
+
+    // ========================================================= Init
+
+    function enableFieldsets() {
+        for (let fieldset of document.getElementsByTagName("FIELDSET")) {
+            fieldset.removeAttribute("disabled");
+        }
+    }
+
+    loadData().then(() => {
+        let cctValues = getCCTValues(MODULE_LIST);
+        setSelectOptions(SELECT_CCT, cctValues, 3500);
+
+        createTable(TABLE);
+
+        generateTable(true);
+
+        enableFieldsets();
+    });
+
+</script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+
+<footer class="footer">
+    <div class="text-center py-3">
+        Made for
+        <a href="https://grower.ch/"> Grower.CH </a>
+        by POTent
+    </div>
+</footer>
+
+</html>

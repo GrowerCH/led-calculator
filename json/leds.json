@@ -1,0 +1,331 @@
+[
+  {
+    "name": "LM281BA+",
+    "max_current": 0.07,
+    "versions": []
+  },
+  {
+    "name": "LM281B+",
+    "max_current": 0.16,
+    "versions": []
+  },
+  {
+    "name": "LM281B+ SJ",
+    "max_current": 0.2,
+    "versions": []
+  },
+  {
+    "name": "LM281B+ SK",
+    "max_current": 0.2,
+    "versions": []
+  },
+  {
+    "name": "LM281BZ+",
+    "max_current": 0.16,
+    "versions": []
+  },
+  {
+    "name": "LM282B+",
+    "max_current": 0.16,
+    "versions": []
+  },
+  {
+    "name": "LM283B+",
+    "max_current": 0.11,
+    "versions": []
+  },
+  {
+    "name": "LM283BS+",
+    "max_current": 0.07,
+    "versions": []
+  },
+  {
+    "name": "LM286B",
+    "max_current": 0.045,
+    "versions": []
+  },
+  {
+    "name": "LM301B",
+    "max_current": 0.2,
+    "versions": [
+      {
+        "cct": 3000,
+        "par_constant": 0.014445717700254643
+      },
+      {
+        "cct": 3500,
+        "par_constant": 0.014455699680930387
+      },
+      {
+        "cct": 4000,
+        "par_constant": 0.014248479106352385
+      },
+      {
+        "cct": 5000,
+        "par_constant": 0.014550797754117144
+      }
+    ]
+  },
+  {
+    "name": "LM301Z+",
+    "max_current": 0.4,
+    "versions": []
+  },
+  {
+    "name": "LM301Z",
+    "max_current": 0.4,
+    "versions": []
+  },
+  {
+    "name": "LM302C",
+    "max_current": 0.15,
+    "versions": []
+  },
+  {
+    "name": "LM302Z+",
+    "max_current": 0.2,
+    "versions": []
+  },
+  {
+    "name": "LM302Z",
+    "max_current": 0.2,
+    "versions": []
+  },
+  {
+    "name": "LM561B+",
+    "max_current": 0.18,
+    "versions": [
+      {
+        "cct": 2700,
+        "par_constant": 0.015069087361648015
+      },
+      {
+        "cct": 3000,
+        "par_constant": 0.014946980790998224
+      },
+      {
+        "cct": 3500,
+        "par_constant": 0.014504089522999477
+      },
+      {
+        "cct": 4000,
+        "par_constant": 0.014259357519528703
+      },
+      {
+        "cct": 5000,
+        "par_constant": 0.013976819923751521
+      },
+      {
+        "cct": 6500,
+        "par_constant": 0.014655027485696324
+      }
+    ]
+  },
+  {
+    "name": "LM561C",
+    "max_current": 0.2,
+    "versions": [
+      {
+        "cct": 3000,
+        "par_constant": 0.014974843627169231
+      },
+      {
+        "cct": 3500,
+        "par_constant": 0.014489112533290192
+      },
+      {
+        "cct": 4000,
+        "par_constant": 0.014250357143542369
+      },
+      {
+        "cct": 5000,
+        "par_constant": 0.013969200659410885
+      }
+    ]
+  },
+  {
+    "name": "LH351B",
+    "max_current": 1.5,
+    "versions": []
+  },
+  {
+    "name": "LH351C",
+    "max_current": 2,
+    "versions": []
+  },
+  {
+    "name": "LH351D",
+    "max_current": 3,
+    "versions": []
+  },
+  {
+    "name": "LH508A+",
+    "max_current": 0.88,
+    "versions": []
+  },
+  {
+    "name": "LH508B",
+    "max_current": 0.8,
+    "versions": []
+  },
+  {
+    "name": "LC010C G2",
+    "max_current": 0.38,
+    "versions": []
+  },
+  {
+    "name": "LC020C G2",
+    "max_current": 0.92,
+    "versions": []
+  },
+  {
+    "name": "LC030C G2",
+    "max_current": 1.38,
+    "versions": []
+  },
+  {
+    "name": "LC040C G2",
+    "max_current": 1.61,
+    "versions": []
+  },
+  {
+    "name": "LC003D G2",
+    "max_current": 0.23,
+    "versions": []
+  },
+  {
+    "name": "LC006D G2",
+    "max_current": 0.46,
+    "versions": []
+  },
+  {
+    "name": "LC009D G2",
+    "max_current": 0.69,
+    "versions": []
+  },
+  {
+    "name": "LC013D G2",
+    "max_current": 0.92,
+    "versions": []
+  },
+  {
+    "name": "LC016D G2",
+    "max_current": 1.15,
+    "versions": []
+  },
+  {
+    "name": "LC019D G2",
+    "max_current": 1.38,
+    "versions": []
+  },
+  {
+    "name": "LC026D G2",
+    "max_current": 1.84,
+    "versions": []
+  },
+  {
+    "name": "LC033D G2",
+    "max_current": 1.84,
+    "versions": []
+  },
+  {
+    "name": "LC040D G2",
+    "max_current": 2.76,
+    "versions": []
+  },
+  {
+    "name": "LC060D G2",
+    "max_current": 2.76,
+    "versions": []
+  },
+  {
+    "name": "LC080D G2",
+    "max_current": 4.14,
+    "versions": []
+  },
+  {
+    "name": "LC003D G3",
+    "max_current": 0.23,
+    "versions": []
+  },
+  {
+    "name": "LC006D G3",
+    "max_current": 0.46,
+    "versions": []
+  },
+  {
+    "name": "LC009D G3",
+    "max_current": 0.69,
+    "versions": []
+  },
+  {
+    "name": "LC013D G3",
+    "max_current": 0.92,
+    "versions": []
+  },
+  {
+    "name": "LC016D G3",
+    "max_current": 1.15,
+    "versions": []
+  },
+  {
+    "name": "LC019D G3",
+    "max_current": 1.38,
+    "versions": []
+  },
+  {
+    "name": "LC026D G3",
+    "max_current": 1.84,
+    "versions": []
+  },
+  {
+    "name": "LC033D G3",
+    "max_current": 2.3,
+    "versions": []
+  },
+  {
+    "name": "LC040D G3",
+    "max_current": 2.76,
+    "versions": []
+  },
+  {
+    "name": "LC060D G3",
+    "max_current": 2.76,
+    "versions": []
+  },
+  {
+    "name": "LC080D G3",
+    "max_current": 4.14,
+    "versions": []
+  },
+  {
+    "name": "LM101A",
+    "max_current": 0.45,
+    "versions": []
+  },
+  {
+    "name": "LM101B",
+    "max_current": 0.35,
+    "versions": []
+  },
+  {
+    "name": "LM102A",
+    "max_current": 0.25,
+    "versions": []
+  },
+  {
+    "name": "LH181A",
+    "max_current": 1.5,
+    "versions": []
+  },
+  {
+    "name": "LH181B",
+    "max_current": 1.4,
+    "versions": []
+  },
+  {
+    "name": "LH231B",
+    "max_current": 2,
+    "versions": []
+  }
+]
