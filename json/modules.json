@@ -13,7 +13,7 @@
         "product_code": "SI-B8V051280US",
         "cct": 3000,
         "cri": 80,
-        "price": 5.2553632,
+        "price": 5.29700445,
         "performances": [
           {
             "current": 0.35,
@@ -36,7 +36,7 @@
         "product_code": "SI-B8U051280US",
         "cct": 3500,
         "cri": 80,
-        "price": 5.39229872,
+        "price": 5.31799172,
         "performances": [
           {
             "current": 0.35,
@@ -59,7 +59,7 @@
         "product_code": "SI-B8T051280US",
         "cct": 4000,
         "cri": 80,
-        "price": 5.39229872,
+        "price": 5.31799172,
         "performances": [
           {
             "current": 0.35,
@@ -82,7 +82,7 @@
         "product_code": "SI-B8R051280US",
         "cct": 5000,
         "cri": 80,
-        "price": 4.5429284,
+        "price": 5.29700445,
         "performances": [
           {
             "current": 0.35,
@@ -117,7 +117,7 @@
         "product_code": "SI-B8V101560US",
         "cct": 3000,
         "cri": 80,
-        "price": 9.62989792,
+        "price": 9.49719592,
         "performances": [
           {
             "current": 0.35,
@@ -140,7 +140,7 @@
         "product_code": "SI-B8U101560US",
         "cct": 3500,
         "cri": 80,
-        "price": 9.62989792,
+        "price": 9.49719592,
         "performances": [
           {
             "current": 0.35,
@@ -163,7 +163,7 @@
         "product_code": "SI-B8T101560US",
         "cct": 4000,
         "cri": 80,
-        "price": 4.516744108,
+        "price": 3.3214636000000004,
         "performances": [
           {
             "current": 0.35,
@@ -186,7 +186,7 @@
         "product_code": "SI-B8R101560US",
         "cct": 5000,
         "cri": 80,
-        "price": 9.62989792,
+        "price": 9.49719592,
         "performances": [
           {
             "current": 0.35,
@@ -221,7 +221,7 @@
         "product_code": "SI-B8V201B20US",
         "cct": 3000,
         "cri": 80,
-        "price": 18.636,
+        "price": 17.39753434,
         "performances": [
           {
             "current": 0.35,
@@ -325,7 +325,7 @@
         "product_code": "SI-B8V053280EU",
         "cct": 3000,
         "cri": 80,
-        "price": 4.1117665599999995,
+        "price": 5.29700445,
         "performances": [
           {
             "current": 0.35,
@@ -338,7 +338,7 @@
         "product_code": "SI-B8T053280EU",
         "cct": 4000,
         "cri": 80,
-        "price": 3.30619,
+        "price": 3.26989,
         "performances": [
           {
             "current": 0.35,
@@ -363,7 +363,7 @@
         "product_code": "SI-B8V103560EU",
         "cct": 3000,
         "cri": 80,
-        "price": 6.17665,
+        "price": 6.12204,
         "performances": [
           {
             "current": 0.35,
@@ -376,7 +376,7 @@
         "product_code": "SI-B8T103560EU",
         "cct": 4000,
         "cri": 80,
-        "price": 6.17665,
+        "price": 6.10889,
         "performances": [
           {
             "current": 0.35,
@@ -418,7 +418,7 @@
         "product_code": "SI-B8T05128HEU",
         "cct": 4000,
         "cri": 80,
-        "price": 1.66078,
+        "price": 1.64257,
         "performances": [
           {
             "current": 0.35,
@@ -448,7 +448,7 @@
         "product_code": "SI-B8V11156HEU",
         "cct": 3000,
         "cri": 80,
-        "price": 6.16167,
+        "price": 6.09407,
         "performances": [
           {
             "current": 0.35,
@@ -466,7 +466,7 @@
         "product_code": "SI-B8T11156HEU",
         "cct": 4000,
         "cri": 80,
-        "price": 2.55478,
+        "price": 2.5268,
         "performances": [
           {
             "current": 0.35,
@@ -680,7 +680,7 @@
         "product_code": "SI-B8V11156HUS",
         "cct": 3000,
         "cri": 80,
-        "price": 10.40709952,
+        "price": 10.26368752,
         "performances": [
           {
             "current": 0.35,
@@ -708,7 +708,7 @@
         "product_code": "SI-B8U11156HUS",
         "cct": 3500,
         "cri": 80,
-        "price": 5.0055483999999995,
+        "price": 10.28923724,
         "performances": [
           {
             "current": 0.35,
@@ -736,7 +736,7 @@
         "product_code": "SI-B8T11156HUS",
         "cct": 4000,
         "cri": 80,
-        "price": 5.6624688,
+        "price": 10.4115109,
         "performances": [
           {
             "current": 0.35,
@@ -764,7 +764,7 @@
         "product_code": "SI-B8R11156HUS",
         "cct": 5000,
         "cri": 80,
-        "price": 9.350475439999999,
+        "price": 9.22162394,
         "performances": [
           {
             "current": 0.35,
@@ -822,7 +822,7 @@
         "product_code": "SI-B8U05128HUS",
         "cct": 3500,
         "cri": 80,
-        "price": 6.134,
+        "price": 5.979,
         "performances": [
           {
             "current": 0.35,
@@ -1276,7 +1276,7 @@
         "product_code": "SI-B8V221B20WW",
         "cct": 3000,
         "cri": 80,
-        "price": 6.25191,
+        "price": 6.18314,
         "performances": [
           {
             "current": 0.35,
@@ -1332,7 +1332,7 @@
         "product_code": "SI-B8T221B20WW",
         "cct": 4000,
         "cri": 80,
-        "price": 6.25191,
+        "price": 6.18314,
         "performances": [
           {
             "current": 0.35,
@@ -1400,7 +1400,7 @@
         "product_code": "SI-B8V301B20WW",
         "cct": 3000,
         "cri": 80,
-        "price": 7.5894,
+        "price": 7.50599,
         "performances": [
           {
             "current": 0.35,
@@ -1466,7 +1466,7 @@
         "product_code": "SI-B8T301B20WW",
         "cct": 4000,
         "cri": 80,
-        "price": 7.5894,
+        "price": 7.50599,
         "performances": [
           {
             "current": 0.35,
@@ -1630,7 +1630,7 @@
         "product_code": "SI-B8T341B20WW",
         "cct": 4000,
         "cri": 80,
-        "price": 15.147104039999999,
+        "price": 14.93837379,
         "performances": [
           {
             "current": 0.35,
@@ -1745,7 +1745,7 @@
         "product_code": "SI-B8V052280WW",
         "cct": 3000,
         "cri": 80,
-        "price": 4.1117665599999995,
+        "price": 4.05510556,
         "performances": [
           {
             "current": 0.35,
@@ -1815,7 +1815,7 @@
         "product_code": "SI-B8T052280WW",
         "cct": 4000,
         "cri": 80,
-        "price": 4.302366,
+        "price": 4.38086449,
         "performances": [
           {
             "current": 0.35,
@@ -1850,7 +1850,7 @@
         "product_code": "SI-B8R052280WW",
         "cct": 5000,
         "cri": 80,
-        "price": 4.48648876,
+        "price": 4.42466401,
         "performances": [
           {
             "current": 0.35,
@@ -1892,7 +1892,7 @@
         "product_code": "SI-B8V072280WW",
         "cct": 3000,
         "cri": 80,
-        "price": 5.23500792,
+        "price": 5.162868420000001,
         "performances": [
           {
             "current": 0.35,
@@ -1942,7 +1942,7 @@
         "product_code": "SI-B8T072280WW",
         "cct": 4000,
         "cri": 80,
-        "price": 5.23500792,
+        "price": 5.162868420000001,
         "performances": [
           {
             "current": 0.35,
@@ -1967,7 +1967,7 @@
         "product_code": "SI-B8R072280WW",
         "cct": 5000,
         "cri": 80,
-        "price": 4.4689092,
+        "price": 5.109944,
         "performances": [
           {
             "current": 0.35,
@@ -1992,7 +1992,7 @@
         "product_code": "SI-B9W113280WW",
         "cct": 2700,
         "cri": 90,
-        "price": 1.7672084,
+        "price": 4.01860596,
         "performances": [
           {
             "current": 0.35,
@@ -2010,7 +2010,7 @@
         "product_code": "SI-B8V114280WW",
         "cct": 3000,
         "cri": 80,
-        "price": 5.536,
+        "price": 5.10538155,
         "performances": [
           {
             "current": 0.35,
@@ -2028,6 +2028,7 @@
         "product_code": "SI-B9V113280WW",
         "cct": 3000,
         "cri": 90,
+        "price": 4.29509043,
         "performances": [
           {
             "current": 0.35,
@@ -2045,7 +2046,7 @@
         "product_code": "SI-B8U114280WW",
         "cct": 3500,
         "cri": 80,
-        "price": 5.57549624,
+        "price": 5.49866474,
         "performances": [
           {
             "current": 0.35,
@@ -2080,7 +2081,7 @@
         "product_code": "SI-B8T114280WW",
         "cct": 4000,
         "cri": 80,
-        "price": 3.32134,
+        "price": 3.28488,
         "performances": [
           {
             "current": 0.35,
@@ -2115,7 +2116,7 @@
         "product_code": "SI-B8R114280WW",
         "cct": 5000,
         "cri": 80,
-        "price": 5.22483028,
+        "price": 5.152831030000001,
         "performances": [
           {
             "current": 0.35,
@@ -2145,7 +2146,7 @@
         "product_code": "SI-B9W111560WW",
         "cct": 2700,
         "cri": 90,
-        "price": 2.2483332,
+        "price": 4.55241261,
         "performances": [
           {
             "current": 0.35,
@@ -2163,7 +2164,7 @@
         "product_code": "SI-B8V113560WW",
         "cct": 3000,
         "cri": 80,
-        "price": 6.2268652,
+        "price": 7.09278477,
         "performances": [
           {
             "current": 0.35,
@@ -2181,7 +2182,7 @@
         "product_code": "SI-B9V111560WW",
         "cct": 3000,
         "cri": 90,
-        "price": 2.4796432,
+        "price": 3.79230844,
         "performances": [
           {
             "current": 0.35,
@@ -2217,7 +2218,7 @@
         "product_code": "SI-B9U111560WW",
         "cct": 3500,
         "cri": 90,
-        "price": 2.0355280000000002,
+        "price": 3.79230844,
         "performances": [
           {
             "current": 0.35,
@@ -2235,7 +2236,7 @@
         "product_code": "SI-B8T113560WW",
         "cct": 4000,
         "cri": 80,
-        "price": 3.73027,
+        "price": 3.67915,
         "performances": [
           {
             "current": 0.35,
@@ -2322,7 +2323,7 @@
         "product_code": "SI-B8V152560WW",
         "cct": 3000,
         "cri": 80,
-        "price": 2.636934,
+        "price": 8.48250704,
         "performances": [
           {
             "current": 0.35,
@@ -2345,7 +2346,7 @@
         "product_code": "SI-B9V151560WW",
         "cct": 3000,
         "cri": 90,
-        "price": 2.6461864,
+        "price": 5.37091614,
         "performances": [
           {
             "current": 0.35,
@@ -2368,7 +2369,7 @@
         "product_code": "SI-B8U152560WW",
         "cct": 3500,
         "cri": 80,
-        "price": 2.6184292,
+        "price": 8.11112361,
         "performances": [
           {
             "current": 0.35,
@@ -2391,7 +2392,7 @@
         "product_code": "SI-B9U151560WW",
         "cct": 3500,
         "cri": 90,
-        "price": 2.6461864,
+        "price": 5.37091614,
         "performances": [
           {
             "current": 0.35,
@@ -2414,7 +2415,7 @@
         "product_code": "SI-B8T152560WW",
         "cct": 4000,
         "cri": 80,
-        "price": 4.45504,
+        "price": 4.3941,
         "performances": [
           {
             "current": 0.35,
@@ -2437,7 +2438,7 @@
         "product_code": "SI-B9T151560WW",
         "cct": 4000,
         "cri": 90,
-        "price": 5.8438158399999995,
+        "price": 5.7395621000000006,
         "performances": [
           {
             "current": 0.35,
@@ -2522,7 +2523,7 @@
         "product_code": "SI-B8V172560WW",
         "cct": 3000,
         "cri": 80,
-        "price": 8.734265599999999,
+        "price": 8.613905599999999,
         "performances": [
           {
             "current": 0.35,
@@ -2577,7 +2578,7 @@
         "product_code": "SI-B8U172560WW",
         "cct": 3500,
         "cri": 80,
-        "price": 10.22760296,
+        "price": 10.08666446,
         "performances": [
           {
             "current": 0.35,
@@ -2605,7 +2606,7 @@
         "product_code": "SI-B9U171560WW",
         "cct": 3500,
         "cri": 90,
-        "price": 3.5529216,
+        "price": 6.96321119,
         "performances": [
           {
             "current": 0.35,
@@ -2633,7 +2634,7 @@
         "product_code": "SI-B8T172560WW",
         "cct": 4000,
         "cri": 80,
-        "price": 5.831,
+        "price": 5.76706,
         "performances": [
           {
             "current": 0.35,
@@ -2661,7 +2662,7 @@
         "product_code": "SI-B9T171560WW",
         "cct": 4000,
         "cri": 90,
-        "price": 7.616575679999999,
+        "price": 7.520742580000001,
         "performances": [
           {
             "current": 0.35,
@@ -2746,7 +2747,7 @@
         "product_code": "SI-B8T07128VEU",
         "cct": 4000,
         "cri": 80,
-        "price": 2.53713,
+        "price": 2.5025,
         "performances": [
           {
             "current": 0.35,
@@ -2776,7 +2777,7 @@
         "product_code": "SI-B8V07228VEU",
         "cct": 3000,
         "cri": 80,
-        "price": 5.23500792,
+        "price": 5.162868420000001,
         "performances": [
           {
             "current": 0.35,
@@ -2794,7 +2795,7 @@
         "product_code": "SI-B8T07228VEU",
         "cct": 4000,
         "cri": 80,
-        "price": 5.831,
+        "price": 5.76706,
         "performances": [
           {
             "current": 0.35,
@@ -2824,7 +2825,7 @@
         "product_code": "SI-B8V13156SEU",
         "cct": 3000,
         "cri": 80,
-        "price": 4.77905,
+        "price": 4.7266,
         "performances": [
           {
             "current": 0.35,
@@ -2842,7 +2843,7 @@
         "product_code": "SI-B8T13156SEU",
         "cct": 4000,
         "cri": 80,
-        "price": 4.80253,
+        "price": 4.73676,
         "performances": [
           {
             "current": 0.35,
@@ -2872,7 +2873,7 @@
         "product_code": "SI-B8V13256SEU",
         "cct": 3000,
         "cri": 80,
-        "price": 8.734265599999999,
+        "price": 8.613905599999999,
         "performances": [
           {
             "current": 0.35,
@@ -2890,7 +2891,7 @@
         "product_code": "SI-B8T13256SEU",
         "cct": 4000,
         "cri": 80,
-        "price": 5.831,
+        "price": 5.76706,
         "performances": [
           {
             "current": 0.35,
@@ -2942,7 +2943,7 @@
         "product_code": "SI-B8U17256CWW",
         "cct": 3500,
         "cri": 80,
-        "price": 5.831,
+        "price": 5.76706,
         "performances": [
           {
             "current": 0.35,
@@ -2965,7 +2966,7 @@
         "product_code": "SI-B8T17256CWW",
         "cct": 4000,
         "cri": 80,
-        "price": 3.91142,
+        "price": 3.85797,
         "performances": [
           {
             "current": 0.35,
@@ -3022,7 +3023,7 @@
         "product_code": "SI-B8V342B2CUS",
         "cct": 3000,
         "cri": 80,
-        "price": 8.3919268,
+        "price": 15.648291010000001,
         "performances": [
           {
             "current": 0.35,
@@ -3123,7 +3124,7 @@
         "product_code": "SI-B8V26256CUS",
         "cct": 3000,
         "cri": 80,
-        "price": 6.300884399999999,
+        "price": 6.22135682,
         "performances": [
           {
             "current": 0.35,
@@ -3244,7 +3245,7 @@
         "product_code": "SI-B8V52256CUS",
         "cct": 3000,
         "cri": 80,
-        "price": 6.25191,
+        "price": 6.18314,
         "performances": [
           {
             "current": 0.35,
@@ -3272,7 +3273,7 @@
         "product_code": "SI-B8U52256CUS",
         "cct": 3500,
         "cri": 80,
-        "price": 15.96286,
+        "price": 15.74441,
         "performances": [
           {
             "current": 0.35,
@@ -3300,7 +3301,7 @@
         "product_code": "SI-B8T52256CUS",
         "cct": 4000,
         "cri": 80,
-        "price": 6.25191,
+        "price": 6.18314,
         "performances": [
           {
             "current": 0.35,
@@ -3328,7 +3329,7 @@
         "product_code": "SI-B8R52256CUS",
         "cct": 5000,
         "cri": 80,
-        "price": 15.96286,
+        "price": 15.74441,
         "performances": [
           {
             "current": 0.35,
@@ -3368,7 +3369,7 @@
         "product_code": "SI-B8V522B2CUS",
         "cct": 3000,
         "cri": 80,
-        "price": 6.25191,
+        "price": 6.18314,
         "performances": [
           {
             "current": 0.35,
@@ -3489,7 +3490,7 @@
         "product_code": "SI-B8V06128CWW",
         "cct": 3000,
         "cri": 80,
-        "price": 1.62766,
+        "price": 1.60963,
         "performances": [
           {
             "current": 0.35,
@@ -3525,7 +3526,7 @@
         "product_code": "SI-B8T06128CWW",
         "cct": 4000,
         "cri": 80,
-        "price": 1.62766,
+        "price": 1.60963,
         "performances": [
           {
             "current": 0.35,
@@ -3573,7 +3574,7 @@
         "product_code": "SI-B8V08128CWW",
         "cct": 3000,
         "cri": 80,
-        "price": 1.77707,
+        "price": 1.75757,
         "performances": [
           {
             "current": 0.35,
@@ -3599,7 +3600,7 @@
         "product_code": "SI-B8T08128CWW",
         "cct": 4000,
         "cri": 80,
-        "price": 1.77707,
+        "price": 1.75757,
         "performances": [
           {
             "current": 0.35,
@@ -3612,7 +3613,7 @@
         "product_code": "SI-B8R08128CWW",
         "cct": 5000,
         "cri": 80,
-        "price": 1.2305692,
+        "price": 2.5458471,
         "performances": [
           {
             "current": 0.35,
@@ -3655,7 +3656,7 @@
         "product_code": "SI-B8U11156CWW",
         "cct": 3500,
         "cri": 80,
-        "price": 4.42542292,
+        "price": 4.36443967,
         "performances": [
           {
             "current": 0.35,
@@ -3721,7 +3722,7 @@
         "product_code": "SI-B8V15156CWW",
         "cct": 3000,
         "cri": 80,
-        "price": 2.79537,
+        "price": 2.76457,
         "performances": [
           {
             "current": 0.35,
@@ -3744,7 +3745,7 @@
         "product_code": "SI-B8U15156CWW",
         "cct": 3500,
         "cri": 80,
-        "price": 2.1835663999999997,
+        "price": 4.63453671,
         "performances": [
           {
             "current": 0.35,
@@ -3767,7 +3768,7 @@
         "product_code": "SI-B8T15156CWW",
         "cct": 4000,
         "cri": 80,
-        "price": 2.79537,
+        "price": 2.76457,
         "performances": [
           {
             "current": 0.35,
@@ -3790,7 +3791,7 @@
         "product_code": "SI-B8R15156CWW",
         "cct": 5000,
         "cri": 80,
-        "price": 4.7464812,
+        "price": 4.6810737,
         "performances": [
           {
             "current": 0.35,
@@ -3825,7 +3826,7 @@
         "product_code": "SI-B8V17156CWW",
         "cct": 3000,
         "cri": 80,
-        "price": 3.51665,
+        "price": 3.47802,
         "performances": [
           {
             "current": 0.35,
@@ -3853,7 +3854,7 @@
         "product_code": "SI-B8U17156CWW",
         "cct": 3500,
         "cri": 80,
-        "price": 4.72149972,
+        "price": 4.63727418,
         "performances": [
           {
             "current": 0.35,
@@ -3881,7 +3882,7 @@
         "product_code": "SI-B8T17156CWW",
         "cct": 4000,
         "cri": 80,
-        "price": 3.51665,
+        "price": 3.47802,
         "performances": [
           {
             "current": 0.35,
@@ -3909,7 +3910,7 @@
         "product_code": "SI-B8R17156CWW",
         "cct": 5000,
         "cri": 80,
-        "price": 3.66765136,
+        "price": 3.61711036,
         "performances": [
           {
             "current": 0.35,
@@ -4005,7 +4006,7 @@
         "product_code": "SI-B8T221B2CUS",
         "cct": 4000,
         "cri": 80,
-        "price": 8.247,
+        "price": 7.64119126,
         "performances": [
           {
             "current": 0.35,
@@ -4073,7 +4074,7 @@
         "product_code": "SI-B8V301B2CUS",
         "cct": 3000,
         "cri": 80,
-        "price": 9.02756668,
+        "price": 8.903164929999999,
         "performances": [
           {
             "current": 0.35,
@@ -4106,7 +4107,7 @@
         "product_code": "SI-B8U301B2CUS",
         "cct": 3500,
         "cri": 80,
-        "price": 7.8552876,
+        "price": 8.6504052,
         "performances": [
           {
             "current": 0.35,
@@ -4172,7 +4173,7 @@
         "product_code": "SI-B8R301B2CUS",
         "cct": 5000,
         "cri": 80,
-        "price": 9.045978955999999,
+        "price": 8.921323481,
         "performances": [
           {
             "current": 0.35,
@@ -4341,7 +4342,7 @@
         "product_code": "SI-B8V114250WW",
         "cct": 3000,
         "cri": 80,
-        "price": 8.73159,
+        "price": 8.63569,
         "performances": [
           {
             "current": 0.35,
@@ -4354,7 +4355,7 @@
         "product_code": "SI-B8T114250WW",
         "cct": 4000,
         "cri": 80,
-        "price": 8.73159,
+        "price": 8.63569,
         "performances": [
           {
             "current": 0.35,
@@ -4367,7 +4368,7 @@
         "product_code": "SI-B8P114250WW",
         "cct": 6500,
         "cri": 80,
-        "price": 8.73159,
+        "price": 8.63569,
         "performances": [
           {
             "current": 0.35,
@@ -4392,7 +4393,7 @@
         "product_code": "SI-B8V116280WW",
         "cct": 3000,
         "cri": 80,
-        "price": 7.79969,
+        "price": 7.71411,
         "performances": [
           {
             "current": 0.35,
@@ -4405,7 +4406,7 @@
         "product_code": "SI-B8T116280WW",
         "cct": 4000,
         "cri": 80,
-        "price": 7.79969,
+        "price": 7.71411,
         "performances": [
           {
             "current": 0.35,
@@ -4418,7 +4419,7 @@
         "product_code": "SI-B8P116280WW",
         "cct": 6500,
         "cri": 80,
-        "price": 7.79969,
+        "price": 7.71411,
         "performances": [
           {
             "current": 0.35,
@@ -4527,7 +4528,7 @@
         "product_code": "SI-B8T102250WW",
         "cct": 4000,
         "cri": 80,
-        "price": 9.25757,
+        "price": 9.15584,
         "performances": [
           {
             "current": 0.35,
@@ -4570,7 +4571,7 @@
         "product_code": "SI-B8R102250WW",
         "cct": 5000,
         "cri": 80,
-        "price": 9.25757,
+        "price": 9.15584,
         "performances": [
           {
             "current": 0.35,
@@ -4751,7 +4752,7 @@
         "product_code": "SI-B8T104280WW",
         "cct": 4000,
         "cri": 80,
-        "price": 8.95687,
+        "price": 8.85863,
         "performances": [
           {
             "current": 0.35,
@@ -4836,7 +4837,7 @@
         "product_code": "SI-B8P104280WW",
         "cct": 6500,
         "cri": 80,
-        "price": 8.95687,
+        "price": 8.85863,
         "performances": [
           {
             "current": 0.35,
@@ -4891,7 +4892,7 @@
         "product_code": "SI-B8V113250WW",
         "cct": 3000,
         "cri": 80,
-        "price": 6.37212,
+        "price": 6.30203,
         "performances": [
           {
             "current": 0.35,
@@ -4904,7 +4905,7 @@
         "product_code": "SI-B8T113250WW",
         "cct": 4000,
         "cri": 80,
-        "price": 6.37212,
+        "price": 6.30203,
         "performances": [
           {
             "current": 0.35,
@@ -4989,7 +4990,7 @@
         "product_code": "SL-B8V1N30LAWW",
         "cct": 3000,
         "cri": 80,
-        "price": 4.039690364,
+        "price": 1.9892282000000001,
         "performances": [
           {
             "current": 0.35,
@@ -5054,7 +5055,7 @@
         "product_code": "SL-B8T1N30LAWW",
         "cct": 4000,
         "cri": 80,
-        "price": 4.039690364,
+        "price": 1.9892282000000001,
         "performances": [
           {
             "current": 0.35,
@@ -5087,7 +5088,7 @@
         "product_code": "SL-B8R1N30LAWW",
         "cct": 5000,
         "cri": 80,
-        "price": 4.039690364,
+        "price": 1.9892282000000001,
         "performances": [
           {
             "current": 0.35,
@@ -5132,7 +5133,7 @@
         "product_code": "SL-B8V1N60LAWW",
         "cct": 3000,
         "cri": 80,
-        "price": 10.933561079999999,
+        "price": 10.782894330000001,
         "performances": [
           {
             "current": 0.35,
@@ -5217,7 +5218,7 @@
         "product_code": "SL-B8T1N60LAWW",
         "cct": 4000,
         "cri": 80,
-        "price": 7.65667,
+        "price": 7.55194,
         "performances": [
           {
             "current": 0.35,
@@ -5260,7 +5261,7 @@
         "product_code": "SL-B8R1N60LAWW",
         "cct": 5000,
         "cri": 80,
-        "price": 7.65667,
+        "price": 7.55194,
         "performances": [
           {
             "current": 0.35,
@@ -5315,7 +5316,7 @@
         "product_code": "SL-B8V2N70LAWW",
         "cct": 3000,
         "cri": 80,
-        "price": 15.59121924,
+        "price": 15.37636899,
         "performances": [
           {
             "current": 0.35,
@@ -5380,7 +5381,7 @@
         "product_code": "SL-B8T2N70LAWW",
         "cct": 4000,
         "cri": 80,
-        "price": 10.91874,
+        "price": 10.76939,
         "performances": [
           {
             "current": 0.35,
@@ -5413,7 +5414,7 @@
         "product_code": "SL-B8R2N70LAWW",
         "cct": 5000,
         "cri": 80,
-        "price": 7.750550431999999,
+        "price": 3.8050833,
         "performances": [
           {
             "current": 0.35,
@@ -5458,7 +5459,7 @@
         "product_code": "SL-B8V2N80LAWW",
         "cct": 3000,
         "cri": 80,
-        "price": 14.2116864,
+        "price": 14.39452975,
         "performances": [
           {
             "current": 0.35,
@@ -5491,7 +5492,7 @@
         "product_code": "SL-B8U2N80LAWW",
         "cct": 3500,
         "cri": 80,
-        "price": 14.2116864,
+        "price": 14.51224096,
         "performances": [
           {
             "current": 0.35,
@@ -5524,7 +5525,7 @@
         "product_code": "SL-B8T2N80LAWW",
         "cct": 4000,
         "cri": 80,
-        "price": 10.32983,
+        "price": 10.18847,
         "performances": [
           {
             "current": 0.35,
@@ -5557,7 +5558,7 @@
         "product_code": "SL-B8R2N80LAWW",
         "cct": 5000,
         "cri": 80,
-        "price": 7.31587268,
+        "price": 3.5952106,
         "performances": [
           {
             "current": 0.35,
@@ -5602,7 +5603,7 @@
         "product_code": "SL-B8V3N80LAWW",
         "cct": 3000,
         "cri": 80,
-        "price": 19.35509556,
+        "price": 19.08564084,
         "performances": [
           {
             "current": 0.35,
@@ -5645,7 +5646,7 @@
         "product_code": "SL-B8U3N80LAWW",
         "cct": 3500,
         "cri": 80,
-        "price": 14.294958,
+        "price": 15.088934640000002,
         "performances": [
           {
             "current": 0.35,
@@ -5688,7 +5689,7 @@
         "product_code": "SL-B8T3N80LAWW",
         "cct": 4000,
         "cri": 80,
-        "price": 13.6157,
+        "price": 13.46619,
         "performances": [
           {
             "current": 0.35,
@@ -5731,7 +5732,7 @@
         "product_code": "SL-B8R3N80LAWW",
         "cct": 5000,
         "cri": 80,
-        "price": 13.68247,
+        "price": 13.49516,
         "performances": [
           {
             "current": 0.35,
@@ -5786,7 +5787,7 @@
         "product_code": "SL-B8V4N90LAWW",
         "cct": 3000,
         "cri": 80,
-        "price": 24.3985788,
+        "price": 24.062361300000003,
         "performances": [
           {
             "current": 0.35,
@@ -5851,7 +5852,7 @@
         "product_code": "SL-B8T4N90LAWW",
         "cct": 4000,
         "cri": 80,
-        "price": 20.22159,
+        "price": 19.94487,
         "performances": [
           {
             "current": 0.35,
@@ -5884,7 +5885,7 @@
         "product_code": "SL-B8R4N90LAWW",
         "cct": 5000,
         "cri": 80,
-        "price": 20.22159,
+        "price": 19.94487,
         "performances": [
           {
             "current": 0.35,
@@ -5957,7 +5958,7 @@
         "product_code": "SL-B8U3N80L1WW",
         "cct": 3500,
         "cri": 80,
-        "price": 4.3856376,
+        "price": 13.809623660000002,
         "performances": [
           {
             "current": 0.35,
@@ -6013,7 +6014,7 @@
         "product_code": "SL-B8R3N80L1WW",
         "cct": 5000,
         "cri": 80,
-        "price": 4.3856376,
+        "price": 13.809623660000002,
         "performances": [
           {
             "current": 0.35,
@@ -6153,7 +6154,7 @@
         "product_code": "SL-B8V7N90L1WW",
         "cct": 3000,
         "cri": 80,
-        "price": 8.206878799999998,
+        "price": 23.119759130000002,
         "performances": [
           {
             "current": 0.35,
@@ -6181,7 +6182,7 @@
         "product_code": "SL-B8U7N90L1WW",
         "cct": 3500,
         "cri": 80,
-        "price": 20.503318399999998,
+        "price": 23.119759130000002,
         "performances": [
           {
             "current": 0.35,
@@ -6209,7 +6210,7 @@
         "product_code": "SL-B8T7N90L1WW",
         "cct": 4000,
         "cri": 80,
-        "price": 9.0118376,
+        "price": 18.977967019999998,
         "performances": [
           {
             "current": 0.35,
@@ -6237,7 +6238,7 @@
         "product_code": "SL-B8R7N90L1WW",
         "cct": 5000,
         "cri": 80,
-        "price": 10.251659199999999,
+        "price": 23.119759130000002,
         "performances": [
           {
             "current": 0.35,
@@ -6277,7 +6278,7 @@
         "product_code": "SL-B8V1N40L1WW",
         "cct": 3000,
         "cri": 80,
-        "price": 9.315108023999999,
+        "price": 9.325,
         "performances": [
           {
             "current": 0.35,
@@ -6305,7 +6306,7 @@
         "product_code": "SL-B8U1N40L1WW",
         "cct": 3500,
         "cri": 80,
-        "price": 2.5074004,
+        "price": 8.04177437,
         "performances": [
           {
             "current": 0.35,
@@ -6333,7 +6334,7 @@
         "product_code": "SL-B8T1N40L1WW",
         "cct": 4000,
         "cri": 80,
-        "price": 4.0895608,
+        "price": 8.045424330000001,
         "performances": [
           {
             "current": 0.35,
@@ -6401,7 +6402,7 @@
         "product_code": "SL-B8V2N70L1WW",
         "cct": 3000,
         "cri": 80,
-        "price": 10.91874,
+        "price": 10.76939,
         "performances": [
           {
             "current": 0.35,
@@ -6424,7 +6425,7 @@
         "product_code": "SL-B8U2N70L1WW",
         "cct": 3500,
         "cri": 80,
-        "price": 10.91874,
+        "price": 10.76939,
         "performances": [
           {
             "current": 0.35,
@@ -6447,7 +6448,7 @@
         "product_code": "SL-B8T2N70L1WW",
         "cct": 4000,
         "cri": 80,
-        "price": 10.91874,
+        "price": 10.76939,
         "performances": [
           {
             "current": 0.35,
@@ -6470,7 +6471,7 @@
         "product_code": "SL-B8R2N70L1WW",
         "cct": 5000,
         "cri": 80,
-        "price": 7.31587268,
+        "price": 10.76939,
         "performances": [
           {
             "current": 0.35,
@@ -6561,7 +6562,7 @@
         "product_code": "SL-B8T4N80L1WW",
         "cct": 4000,
         "cri": 80,
-        "price": 5.699478399999999,
+        "price": 14.18556954,
         "performances": [
           {
             "current": 0.35,
@@ -6665,7 +6666,7 @@
         "product_code": "SI-B8P09A280WW",
         "cct": 6500,
         "cri": 80,
-        "price": 4.50849,
+        "price": 4.45904,
         "performances": [
           {
             "current": 0.35,
@@ -6715,7 +6716,7 @@
         "product_code": "SI-B8R09B280WW",
         "cct": 5000,
         "cri": 80,
-        "price": 5.2599,
+        "price": 5.20213,
         "performances": [
           {
             "current": 0.35,
@@ -6752,7 +6753,7 @@
         "product_code": "SI-B8V261560WW",
         "cct": 3000,
         "cri": 80,
-        "price": 7.93506,
+        "price": 7.84781,
         "performances": [
           {
             "current": 0.35,
@@ -6828,7 +6829,7 @@
         "product_code": "SI-B8T261560WW",
         "cct": 4000,
         "cri": 80,
-        "price": 7.93506,
+        "price": 7.84781,
         "performances": [
           {
             "current": 0.35,
@@ -6866,7 +6867,7 @@
         "product_code": "SI-B8R261560WW",
         "cct": 5000,
         "cri": 80,
-        "price": 7.97385,
+        "price": 7.86479,
         "performances": [
           {
             "current": 0.35,
@@ -6916,7 +6917,7 @@
         "product_code": "SI-B8V521560WW",
         "cct": 3000,
         "cri": 80,
-        "price": 15.96286,
+        "price": 15.74441,
         "performances": [
           {
             "current": 0.35,
@@ -6954,7 +6955,7 @@
         "product_code": "SI-B8U521560WW",
         "cct": 3500,
         "cri": 80,
-        "price": 15.96286,
+        "price": 15.74441,
         "performances": [
           {
             "current": 0.35,
@@ -6992,7 +6993,7 @@
         "product_code": "SI-B8T521560WW",
         "cct": 4000,
         "cri": 80,
-        "price": 19.504059199999997,
+        "price": 19.5090362,
         "performances": [
           {
             "current": 0.35,
@@ -7030,7 +7031,7 @@
         "product_code": "SI-B8R521560WW",
         "cct": 5000,
         "cri": 80,
-        "price": 19.4392924,
+        "price": 19.171414900000002,
         "performances": [
           {
             "current": 0.35,
@@ -7156,7 +7157,7 @@
         "product_code": "SI-B8T521B20WW",
         "cct": 4000,
         "cri": 80,
-        "price": 15.96286,
+        "price": 15.74441,
         "performances": [
           {
             "current": 0.35,
@@ -7194,7 +7195,7 @@
         "product_code": "SI-B8R521B20WW",
         "cct": 5000,
         "cri": 80,
-        "price": 15.96286,
+        "price": 15.74441,
         "performances": [
           {
             "current": 0.35,
@@ -7468,7 +7469,7 @@
         "product_code": "SI-B8V342560WW",
         "cct": 3000,
         "cri": 80,
-        "price": 8.3919268,
+        "price": 15.648291010000001,
         "performances": [
           {
             "current": 0.35,
@@ -7534,7 +7535,7 @@
         "product_code": "SI-B8T342560WW",
         "cct": 4000,
         "cri": 80,
-        "price": 17.517,
+        "price": 14.264,
         "performances": [
           {
             "current": 0.35,
@@ -7567,7 +7568,7 @@
         "product_code": "SI-B8R342560WW",
         "cct": 5000,
         "cri": 80,
-        "price": 13.596401799999999,
+        "price": 13.40904055,
         "performances": [
           {
             "current": 0.35,
@@ -7633,7 +7634,7 @@
         "product_code": "SI-B8T342560WW",
         "cct": 4000,
         "cri": 80,
-        "price": 17.517,
+        "price": 14.264,
         "performances": [
           {
             "current": 0.35,
@@ -7666,7 +7667,7 @@
         "product_code": "SI-B8R342560WW",
         "cct": 5000,
         "cri": 80,
-        "price": 13.596401799999999,
+        "price": 13.40904055,
         "performances": [
           {
             "current": 0.35,
@@ -7711,7 +7712,7 @@
         "product_code": "SI-B8V342560WW",
         "cct": 3000,
         "cri": 80,
-        "price": 8.3919268,
+        "price": 15.648291010000001,
         "performances": [
           {
             "current": 0.35,
@@ -7787,7 +7788,7 @@
         "product_code": "SI-B8T342560WW",
         "cct": 4000,
         "cri": 80,
-        "price": 17.517,
+        "price": 14.264,
         "performances": [
           {
             "current": 0.35,
@@ -7825,7 +7826,7 @@
         "product_code": "SI-B8R342560WW",
         "cct": 5000,
         "cri": 80,
-        "price": 13.596401799999999,
+        "price": 13.40904055,
         "performances": [
           {
             "current": 0.35,
@@ -7901,7 +7902,7 @@
         "product_code": "SI-B8T342560WW",
         "cct": 4000,
         "cri": 80,
-        "price": 17.517,
+        "price": 14.264,
         "performances": [
           {
             "current": 0.35,
@@ -7939,7 +7940,7 @@
         "product_code": "SI-B8R342560WW",
         "cct": 5000,
         "cri": 80,
-        "price": 13.596401799999999,
+        "price": 13.40904055,
         "performances": [
           {
             "current": 0.35,
@@ -8033,7 +8034,7 @@
         "product_code": "SI-N8T2816B0WW",
         "cct": 4000,
         "cri": 80,
-        "price": 14.850102,
+        "price": 16.68579214,
         "performances": [
           {
             "current": 0.35,
@@ -8068,7 +8069,7 @@
         "product_code": "SI-N8V1714B0WW",
         "cct": 3000,
         "cri": 80,
-        "price": 7.231675839999999,
+        "price": 7.13202184,
         "performances": [
           {
             "current": 0.35,
@@ -8091,7 +8092,7 @@
         "product_code": "SI-N8U1714B0WW",
         "cct": 3500,
         "cri": 80,
-        "price": 5.0333056,
+        "price": 13.81144864,
         "performances": [
           {
             "current": 0.35,
@@ -8114,7 +8115,7 @@
         "product_code": "SI-N8T1714B0WW",
         "cct": 4000,
         "cri": 80,
-        "price": 14.01461028,
+        "price": 13.82148603,
         "performances": [
           {
             "current": 0.35,
@@ -8149,7 +8150,7 @@
         "product_code": "SI-N8V0814B0WW",
         "cct": 3000,
         "cri": 80,
-        "price": 4.22008,
+        "price": 3.1903387870000004,
         "performances": [
           {
             "current": 0.35,
