@@ -21,10 +21,10 @@ function updateTable(table, modules) {
 
     for (let module of modules) {
 
-        for (let version of module.versions) {
+        for (let version of module["versions"]) {
             createSubHead(body, module, version);
 
-            for (let specs of version.specs) {
+            for (let specs of version["specs"]) {
 
                 createRow(body, specs, specs.workload >= 75);
             }
@@ -38,16 +38,28 @@ function createSubHead(body, module, version) {
     let subHeadCell = document.createElement("TH");
     subHeadCell.rowSpan = version.specs.length + 1;
 
-    let url = document.createElement("A");
-    url.innerText = module.model + " (" + (module.parallel_number * module.series_number) + "x " + module.led + ")";
-    if (version.cri != 80) {
-        url.innerText += " (CRI: " + version.cri + ")";
-    }
+    let seller = module["seller"];
+    let sellerText = document.createElement("SMALL");
+    sellerText.innerText = seller + " ";
 
-    url.href = "https://octopart.com/search?q=" + version.product_code;
+    let url = document.createElement("A");
+    url.innerText = module["model"];
+    if (seller == "Samsung") {
+        url.href = "https://octopart.com/search?q=";
+    } else if (seller == "led-tech") {
+        url.href = "https://www.led-tech.de/de/";
+    } else if (seller == "kingbrite") {
+        url.href = "https://kingbriteled.en.alibaba.com/";
+    }
+    url.href += version["product_code"];
     url.target = "_blank";
 
+    let ledText = document.createElement("SMALL");
+    ledText.innerText = " " + (module["parallel_number"] * module["series_number"]) + "x " + module["led"];
+
+    subHeadCell.appendChild(sellerText);
     subHeadCell.appendChild(url);
+    subHeadCell.appendChild(ledText);
     subHeadRow.appendChild(subHeadCell);
 }
 

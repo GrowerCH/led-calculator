@@ -4,8 +4,8 @@ let LED_LIST;
 function loadData() {
     return Promise.all(
         [
-            fetch("json/modules.json"),
-            fetch("json/leds.json")
+            fetch("json/module_data.json"),
+            fetch("json/led_data.json")
         ]
     ).then(
         ([modules, leds]) => Promise.all([modules.json(), leds.json()])
@@ -22,56 +22,67 @@ function cloneArray(array) {
 
 function filterModulesByArea(modules, areaLength, areaWidth) {
     return modules.filter(function (module) {
-        let length = module.dimensions.length;
+        let length = module["dimensions"]["length"];
         return !(length > areaLength * 1000 && length > areaWidth * 1000);
     });
 }
 
 function filterModulesByCCT(modules, cct) {
     return modules.filter(function (module) {
-        module.versions = module.versions.filter(function (version) {
-            return cct == version.cct;
+        module["versions"] = module["versions"].filter(function (version) {
+            return cct == version["cct"];
         });
-        return module.versions.length > 0;
+        return module["versions"].length > 0;
     });
 }
 
-function calculateModules(modules, lumenInput, areaInput, usageInput) {
+function calculateSpecs(modules, lumenInput, areaInput, usageInput, currents = [0.35, 0.5, 0.7, 1.05, 1.4, 1.75, 2.1, 2.8, 3.5]) {
     return modules.filter(function (module) {
-        module.versions = module.versions.filter(function (version) {
-            let ledData = getLEDData(module.led, version.cct);
-            let price = version.price;
+        let maxCurrent = module["max_current"];
 
-            version.specs = [];
-            version.performances.forEach(function (performance) {
-                let specs = calculateSpecs(module, ledData, performance, price, lumenInput, areaInput, usageInput);
-                if (specs.illumination <= 100) {
-                    version.specs.push(specs);
+        module["versions"] = module["versions"].filter(function (moduleVersion) {
+
+            let led = getLEDByName(module["led"]);
+            let ledVersion = getLEDVersionByCCTCRI(led, moduleVersion["cct"], moduleVersion["cri"]);
+
+            moduleVersion["specs"] = [];
+            for (let current of currents) {
+
+                if (current > maxCurrent) {
+                    break;
                 }
-            });
 
-            return version.specs.length > 0;
+                let specs = calculate(module, moduleVersion, led, ledVersion, current, lumenInput, areaInput, usageInput);
+                if (specs.illumination <= 100) {
+                    moduleVersion["specs"].push(specs);
+                }
+            }
+
+            return moduleVersion["specs"].length > 0;
         });
 
-        return module.versions.length > 0;
+        return module["versions"].length > 0;
     });
 }
 
 function filterModulesByEfficiency(modules, minEfficiency) {
     return modules.filter(function (module) {
-        module.versions = module.versions.filter(function (version) {
-            version.specs = version.specs.filter(function (spec) {
+        module["versions"] = module["versions"].filter(function (version) {
+
+            version["specs"] = version["specs"].filter(function (spec) {
                 return spec.efficiency >= minEfficiency
             });
-            return version.specs.length > 0;
+
+            return version["specs"].length > 0;
         });
-        return module.versions.length > 0;
+
+        return module["versions"].length > 0;
     });
 }
 
 function compareEfficiency(a, b) {
-    let efficiencyA = a.versions[0].specs[0].efficiency;
-    let efficiencyB = b.versions[0].specs[0].efficiency;
+    let efficiencyA = a["versions"][0]["specs"][0].efficiency;
+    let efficiencyB = b["versions"][0]["specs"][0].efficiency;
 
     if (efficiencyA > efficiencyB) {
         return -1;
@@ -87,14 +98,14 @@ function getEfficiencyRange(modules) {
     result.best = 0;
     result.worst = 1000;
     for (let module of modules) {
-        for (let version of module.versions) {
+        for (let version of module["versions"]) {
 
-            let specs = version.specs[0];
+            let specs = version["specs"][0];
             if (specs.efficiency > result.best) {
                 result.best = Math.floor(specs.efficiency);
             }
 
-            specs = version.specs[version.specs.length - 1];
+            specs = version["specs"][version.specs.length - 1];
             if (specs.efficiency < result.worst) {
                 result.worst = Math.floor(specs.efficiency);
             }
@@ -108,8 +119,8 @@ function getEfficiencyRange(modules) {
 function getCCTValues(modules) {
     let result = [];
     for (let module of modules) {
-        for (let version of module.versions) {
-            let cct = version.cct;
+        for (let version of module["versions"]) {
+            let cct = version["cct"];
             if (!result.includes(cct)) {
                 result.push(cct);
             }
@@ -118,19 +129,18 @@ function getCCTValues(modules) {
     return result;
 }
 
-function getLEDData(ledName, cct) {
-    let result = {};
+function getLEDByName(ledName) {
     for (let led of LED_LIST) {
-        if (led.name != ledName) {
-            continue;
-        }
-        result.maxCurrent = led.max_current;
-        for (let version of led.versions) {
-            if (version.cct == cct) {
-                result.parConstant = version.par_constant;
-                return result;
-            }
+        if (led["name"] == ledName) {
+            return led;
         }
     }
-    return result;
+}
+
+function getLEDVersionByCCTCRI(led, cct, cri) {
+    for (let version of led["versions"]) {
+        if (version["cct"] == cct && version["cri"] == cri) {
+            return version;
+        }
+    }
 }
