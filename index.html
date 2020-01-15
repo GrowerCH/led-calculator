@@ -232,7 +232,7 @@
     INPUT_FLOWERING_DAYS.addEventListener("input", generateTable);
 
     function getGrowHours() {
-        return INPUT_VEGETATION_DAYS.value * 12 + INPUT_FLOWERING_DAYS.value * 18;
+        return INPUT_VEGETATION_DAYS.value * 18 + INPUT_FLOWERING_DAYS.value * 12;
     }
 
     // ========================================================= Table
