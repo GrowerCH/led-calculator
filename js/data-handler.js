@@ -38,7 +38,6 @@ function filterModulesByCCT(modules, cct) {
 
 function calculateSpecs(modules, lumenInput, areaInput, usageInput, currents = [0.35, 0.5, 0.7, 1.05, 1.4, 1.75, 2.1, 2.8, 3.5]) {
     return modules.filter(function (module) {
-        let maxCurrent = module["max_current"];
 
         module["versions"] = module["versions"].filter(function (moduleVersion) {
 
@@ -48,12 +47,8 @@ function calculateSpecs(modules, lumenInput, areaInput, usageInput, currents = [
             moduleVersion["specs"] = [];
             for (let current of currents) {
 
-                if (current > maxCurrent) {
-                    break;
-                }
-
                 let specs = calculate(module, moduleVersion, led, ledVersion, current, lumenInput, areaInput, usageInput);
-                if (specs.illumination <= 100) {
+                if (specs.illumination <= 100 && specs.workload < 100) {
                     moduleVersion["specs"].push(specs);
                 }
             }
