@@ -26,8 +26,8 @@ function calculateFlux(version, Current) {
 }
 
 function calculate(module, moduleVersion, led, ledVersion, current, lumenInput, areaInput, usageInput) {
-    let series = module["series_number"];
-    let parallel = module["parallel_number"];
+    let series = module["series_count"];
+    let parallel = module["parallel_count"];
     let count = series * parallel;
 
     let ledCurrent = current / parallel;

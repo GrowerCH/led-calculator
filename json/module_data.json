@@ -3,8 +3,8 @@
     "model": "Zeus 308 Compact",
     "seller": "led-tech",
     "led": "LM301B",
-    "parallel_number": 22,
-    "series_number": 14,
+    "parallel_count": 22,
+    "series_count": 14,
     "max_current": 3.5,
     "dimensions": {
       "length": 285.0,
@@ -47,8 +47,8 @@
     "model": "50cm Alustreifen",
     "seller": "led-tech",
     "led": "LM301B",
-    "parallel_number": 14,
-    "series_number": 7,
+    "parallel_count": 14,
+    "series_count": 7,
     "max_current": 2.8,
     "dimensions": {
       "length": 499.9,
@@ -97,8 +97,8 @@
     "model": "50cm Alustreifen mit SB",
     "seller": "led-tech",
     "led": "LM301B",
-    "parallel_number": 14,
-    "series_number": 7,
+    "parallel_count": 14,
+    "series_count": 7,
     "max_current": 2.8,
     "dimensions": {
       "length": 499.9,
@@ -117,8 +117,8 @@
     "model": "90cm LED Strip mit KK",
     "seller": "kingbrite",
     "led": "LM301B",
-    "parallel_number": 8,
-    "series_number": 12,
+    "parallel_count": 8,
+    "series_count": 12,
     "max_current": 1.5,
     "dimensions": {
       "length": 900.0,
@@ -167,8 +167,8 @@
     "model": "90cm LED Strip mit KK",
     "seller": "kingbrite",
     "led": "LM561C",
-    "parallel_number": 8,
-    "series_number": 12,
+    "parallel_count": 8,
+    "series_count": 12,
     "max_current": 1.5,
     "dimensions": {
       "length": 900.0,
@@ -217,8 +217,8 @@
     "model": "51cm LED Bar",
     "seller": "kingbrite",
     "led": "LM301B",
-    "parallel_number": 8,
-    "series_number": 16,
+    "parallel_count": 8,
+    "series_count": 16,
     "max_current": 1.5,
     "dimensions": {
       "length": 510.0,
@@ -249,8 +249,8 @@
     "model": "Quantum Board mit KK",
     "seller": "kingbrite",
     "led": "LM301B",
-    "parallel_number": 18,
-    "series_number": 16,
+    "parallel_count": 18,
+    "series_count": 16,
     "max_current": 3.5,
     "dimensions": {
       "length": 326.0,
@@ -281,9 +281,8 @@
     "model": "LT-Q282A",
     "seller": "Samsung",
     "led": "LM301B",
-    "parallel_number": 5,
-    "series_number": 4,
-    "max_current": 0.9,
+    "parallel_count": 5,
+    "series_count": 4,
     "dimensions": {
       "length": 275.0,
       "width": 18.0
@@ -293,25 +292,25 @@
         "product_code": "SI-B8V051280US",
         "cct": 3000,
         "cri": 80,
-        "price": 5.3106462
+        "price": 5.341993199999999
       },
       {
         "product_code": "SI-B8U051280US",
         "cct": 3500,
         "cri": 80,
-        "price": 5.33168752
+        "price": 5.341993199999999
       },
       {
         "product_code": "SI-B8T051280US",
         "cct": 4000,
         "cri": 80,
-        "price": 5.33168752
+        "price": 5.341993199999999
       },
       {
         "product_code": "SI-B8R051280US",
         "cct": 5000,
         "cri": 80,
-        "price": 5.3106462
+        "price": 5.341993199999999
       }
     ]
   },
@@ -319,9 +318,8 @@
     "model": "LT-Q562A",
     "seller": "Samsung",
     "led": "LM301B",
-    "parallel_number": 5,
-    "series_number": 8,
-    "max_current": 0.9,
+    "parallel_count": 5,
+    "series_count": 8,
     "dimensions": {
       "length": 560.0,
       "width": 18.0
@@ -331,25 +329,25 @@
         "product_code": "SI-B8V101560US",
         "cct": 3000,
         "cri": 80,
-        "price": 9.521654719999999
+        "price": 7.96283672
       },
       {
         "product_code": "SI-B8U101560US",
         "cct": 3500,
         "cri": 80,
-        "price": 9.43748944
+        "price": 9.48583392
       },
       {
         "product_code": "SI-B8T101560US",
         "cct": 4000,
         "cri": 80,
-        "price": 3.3300176
+        "price": 3.865008
       },
       {
         "product_code": "SI-B8R101560US",
         "cct": 5000,
         "cri": 80,
-        "price": 9.521654719999999
+        "price": 9.528072936
       }
     ]
   },
@@ -357,9 +355,8 @@
     "model": "LT-QB22A",
     "seller": "Samsung",
     "led": "LM301B",
-    "parallel_number": 5,
-    "series_number": 16,
-    "max_current": 0.9,
+    "parallel_count": 5,
+    "series_count": 16,
     "dimensions": {
       "length": 1120.0,
       "width": 18.0
@@ -369,25 +366,25 @@
         "product_code": "SI-B8V201B20US",
         "cct": 3000,
         "cri": 80,
-        "price": 17.442339439999998
+        "price": 17.545295839999998
       },
       {
         "product_code": "SI-B8U201B20US",
         "cct": 3500,
         "cri": 80,
-        "price": 18.329
+        "price": 17.82
       },
       {
         "product_code": "SI-B8T201B20US",
         "cct": 4000,
         "cri": 80,
-        "price": 18.329
+        "price": 17.82
       },
       {
         "product_code": "SI-B8R201B20US",
         "cct": 5000,
         "cri": 80,
-        "price": 18.329
+        "price": 17.82
       }
     ]
   },
@@ -395,9 +392,8 @@
     "model": "LT-Q282B",
     "seller": "Samsung",
     "led": "LM301B",
-    "parallel_number": 2,
-    "series_number": 10,
-    "max_current": 0.36,
+    "parallel_count": 2,
+    "series_count": 10,
     "dimensions": {
       "length": 279.7,
       "width": 23.8
@@ -419,9 +415,8 @@
     "model": "LT-Q562B",
     "seller": "Samsung",
     "led": "LM301B",
-    "parallel_number": 2,
-    "series_number": 20,
-    "max_current": 0.36,
+    "parallel_count": 2,
+    "series_count": 20,
     "dimensions": {
       "length": 559.7,
       "width": 23.8
@@ -443,9 +438,8 @@
     "model": "LT-H282C",
     "seller": "Samsung",
     "led": "LM561C",
-    "parallel_number": 3,
-    "series_number": 8,
-    "max_current": 0.6,
+    "parallel_count": 3,
+    "series_count": 8,
     "dimensions": {
       "length": 279.7,
       "width": 23.8
@@ -460,7 +454,7 @@
         "product_code": "SI-B8T05128HEU",
         "cct": 4000,
         "cri": 80,
-        "price": 1.64441
+        "price": 1.65858
       }
     ]
   },
@@ -468,9 +462,8 @@
     "model": "LT-H562C",
     "seller": "Samsung",
     "led": "LM561C",
-    "parallel_number": 3,
-    "series_number": 16,
-    "max_current": 0.6,
+    "parallel_count": 3,
+    "series_count": 16,
     "dimensions": {
       "length": 559.7,
       "width": 23.8
@@ -485,7 +478,7 @@
         "product_code": "SI-B8T11156HEU",
         "cct": 4000,
         "cri": 80,
-        "price": 2.52947
+        "price": 2.55145
       }
     ]
   },
@@ -493,9 +486,8 @@
     "model": "LT-HB22D",
     "seller": "Samsung",
     "led": "LM561C",
-    "parallel_number": 12,
-    "series_number": 8,
-    "max_current": 2.4000000000000004,
+    "parallel_count": 12,
+    "series_count": 8,
     "dimensions": {
       "length": 1120.0,
       "width": 18.0
@@ -531,9 +523,8 @@
     "model": "LT-H562D",
     "seller": "Samsung",
     "led": "LM561C",
-    "parallel_number": 6,
-    "series_number": 8,
-    "max_current": 1.2000000000000002,
+    "parallel_count": 6,
+    "series_count": 8,
     "dimensions": {
       "length": 560.0,
       "width": 18.0
@@ -543,25 +534,25 @@
         "product_code": "SI-B8V11156HUS",
         "cct": 3000,
         "cri": 80,
-        "price": 10.29012032
+        "price": 10.350859519999998
       },
       {
         "product_code": "SI-B8U11156HUS",
         "cct": 3500,
         "cri": 80,
-        "price": 10.31573584
+        "price": 10.376626239999998
       },
       {
         "product_code": "SI-B8T11156HUS",
         "cct": 4000,
         "cri": 80,
-        "price": 10.4383244
+        "price": 10.4999384
       },
       {
         "product_code": "SI-B8R11156HUS",
         "cct": 5000,
         "cri": 80,
-        "price": 9.24537304
+        "price": 9.29994544
       }
     ]
   },
@@ -569,9 +560,8 @@
     "model": "LT-H282D",
     "seller": "Samsung",
     "led": "LM561C",
-    "parallel_number": 3,
-    "series_number": 8,
-    "max_current": 0.6000000000000001,
+    "parallel_count": 3,
+    "series_count": 8,
     "dimensions": {
       "length": 275.0,
       "width": 18.0
@@ -581,24 +571,25 @@
         "product_code": "SI-B8V05128HUS",
         "cct": 3000,
         "cri": 80,
-        "price": 5.881
+        "price": 5.958
       },
       {
         "product_code": "SI-B8U05128HUS",
         "cct": 3500,
-        "cri": 80
+        "cri": 80,
+        "price": 5.958
       },
       {
         "product_code": "SI-B8T05128HUS",
         "cct": 4000,
         "cri": 80,
-        "price": 5.881
+        "price": 5.958
       },
       {
         "product_code": "SI-B8R05128HUS",
         "cct": 5000,
         "cri": 80,
-        "price": 5.881
+        "price": 5.958
       }
     ]
   },
@@ -606,9 +597,8 @@
     "model": "H-InFlux_S02",
     "seller": "Samsung",
     "led": "LM301B",
-    "parallel_number": 8,
-    "series_number": 4,
-    "max_current": 1.6,
+    "parallel_count": 8,
+    "series_count": 4,
     "dimensions": {
       "length": 280.0,
       "width": 24.0
@@ -618,7 +608,7 @@
         "product_code": "SL-B8V1N30LAWW",
         "cct": 3000,
         "cri": 80,
-        "price": 1.9943512
+        "price": 8.949
       },
       {
         "product_code": "SL-B8U1N30LAWW",
@@ -629,13 +619,13 @@
         "product_code": "SL-B8T1N30LAWW",
         "cct": 4000,
         "cri": 80,
-        "price": 1.9943512
+        "price": 2.3005999999999998
       },
       {
         "product_code": "SL-B8R1N30LAWW",
         "cct": 5000,
         "cri": 80,
-        "price": 1.9943512
+        "price": 2.3005999999999998
       }
     ]
   },
@@ -643,9 +633,8 @@
     "model": "H-InFlux_S03",
     "seller": "Samsung",
     "led": "LM301B",
-    "parallel_number": 11,
-    "series_number": 4,
-    "max_current": 2.2,
+    "parallel_count": 11,
+    "series_count": 4,
     "dimensions": {
       "length": 280.0,
       "width": 24.0
@@ -655,7 +644,7 @@
         "product_code": "SL-B8V1N60LAWW",
         "cct": 3000,
         "cri": 80,
-        "price": 10.81066428
+        "price": 10.87171536
       },
       {
         "product_code": "SL-B8U1N60LAWW",
@@ -666,13 +655,13 @@
         "product_code": "SL-B8T1N60LAWW",
         "cct": 4000,
         "cri": 80,
-        "price": 10.81066428
+        "price": 10.87171536
       },
       {
         "product_code": "SL-B8R1N60LAWW",
         "cct": 5000,
         "cri": 80,
-        "price": 10.81066428
+        "price": 10.87171536
       }
     ]
   },
@@ -680,9 +669,8 @@
     "model": "H-InFlux_S04",
     "seller": "Samsung",
     "led": "LM301B",
-    "parallel_number": 8,
-    "series_number": 8,
-    "max_current": 1.6,
+    "parallel_count": 8,
+    "series_count": 8,
     "dimensions": {
       "length": 281.0,
       "width": 41.0
@@ -692,7 +680,7 @@
         "product_code": "SL-B8V2N70LAWW",
         "cct": 3000,
         "cri": 80,
-        "price": 15.41596884
+        "price": 15.509724959999998
       },
       {
         "product_code": "SL-B8U2N70LAWW",
@@ -703,13 +691,13 @@
         "product_code": "SL-B8T2N70LAWW",
         "cct": 4000,
         "cri": 80,
-        "price": 10.78088
+        "price": 10.8528
       },
       {
         "product_code": "SL-B8R2N70LAWW",
         "cct": 5000,
         "cri": 80,
-        "price": 3.8148828
+        "price": 4.417152
       }
     ]
   },
@@ -717,9 +705,8 @@
     "model": "H-InFlux_L04",
     "seller": "Samsung",
     "led": "LM301B",
-    "parallel_number": 8,
-    "series_number": 8,
-    "max_current": 1.6,
+    "parallel_count": 8,
+    "series_count": 8,
     "dimensions": {
       "length": 560.0,
       "width": 24.0
@@ -729,25 +716,25 @@
         "product_code": "SL-B8V2N80LAWW",
         "cct": 3000,
         "cri": 80,
-        "price": 14.431601
+        "price": 14.5075836
       },
       {
         "product_code": "SL-B8U2N80LAWW",
         "cct": 3500,
         "cri": 80,
-        "price": 14.549615359999999
+        "price": 14.639177919999998
       },
       {
         "product_code": "SL-B8T2N80LAWW",
         "cct": 4000,
         "cri": 80,
-        "price": 14.509362399999999
+        "price": 14.591325439999999
       },
       {
         "product_code": "SL-B8R2N80LAWW",
         "cct": 5000,
         "cri": 80,
-        "price": 3.6044696
+        "price": 4.233103999999999
       }
     ]
   },
@@ -755,9 +742,8 @@
     "model": "H-InFlux_L06",
     "seller": "Samsung",
     "led": "LM301B",
-    "parallel_number": 11,
-    "series_number": 8,
-    "max_current": 2.2,
+    "parallel_count": 11,
+    "series_count": 8,
     "dimensions": {
       "length": 560.0,
       "width": 24.0
@@ -767,25 +753,25 @@
         "product_code": "SL-B8V3N80LAWW",
         "cct": 3000,
         "cri": 80,
-        "price": 19.13479344
+        "price": 19.21553144
       },
       {
         "product_code": "SL-B8U3N80LAWW",
         "cct": 3500,
         "cri": 80,
-        "price": 15.114894995999999
+        "price": 15.078132400000001
       },
       {
         "product_code": "SL-B8T3N80LAWW",
         "cct": 4000,
         "cri": 80,
-        "price": 19.2390852
+        "price": 19.152955119999998
       },
       {
         "product_code": "SL-B8R3N80LAWW",
         "cct": 5000,
         "cri": 80,
-        "price": 19.993
+        "price": 20.039
       }
     ]
   },
@@ -793,9 +779,8 @@
     "model": "H-InFlux_L09",
     "seller": "Samsung",
     "led": "LM301B",
-    "parallel_number": 8,
-    "series_number": 16,
-    "max_current": 1.6,
+    "parallel_count": 8,
+    "series_count": 16,
     "dimensions": {
       "length": 561.0,
       "width": 41.0
@@ -805,7 +790,7 @@
         "product_code": "SL-B8V4N90LAWW",
         "cct": 3000,
         "cri": 80,
-        "price": 24.1243308
+        "price": 24.2759312
       },
       {
         "product_code": "SL-B8U4N90LAWW",
@@ -816,13 +801,13 @@
         "product_code": "SL-B8T4N90LAWW",
         "cct": 4000,
         "cri": 80,
-        "price": 19.96635
+        "price": 20.09955
       },
       {
         "product_code": "SL-B8R4N90LAWW",
         "cct": 5000,
         "cri": 80,
-        "price": 24.1243308
+        "price": 24.2759312
       }
     ]
   },
@@ -830,9 +815,8 @@
     "model": "LT-F562B",
     "seller": "Samsung",
     "led": "LM561C",
-    "parallel_number": 9,
-    "series_number": 8,
-    "max_current": 1.8,
+    "parallel_count": 9,
+    "series_count": 8,
     "dimensions": {
       "length": 560.0,
       "width": 18.0
@@ -842,13 +826,13 @@
         "product_code": "SI-B8V261560WW",
         "cct": 3000,
         "cri": 80,
-        "price": 11.45288196
+        "price": 11.52048456
       },
       {
         "product_code": "SI-B8U261560WW",
         "cct": 3500,
         "cri": 80,
-        "price": 12.917
+        "price": 12.25667656
       },
       {
         "product_code": "SI-B8T261560WW",
@@ -859,8 +843,7 @@
       {
         "product_code": "SI-B8R261560WW",
         "cct": 5000,
-        "cri": 80,
-        "price": 11.3943322
+        "cri": 80
       }
     ]
   },
@@ -868,9 +851,8 @@
     "model": "LT-F564B",
     "seller": "Samsung",
     "led": "LM561C",
-    "parallel_number": 9,
-    "series_number": 16,
-    "max_current": 1.8,
+    "parallel_count": 9,
+    "series_count": 16,
     "dimensions": {
       "length": 559.7,
       "width": 39.8
@@ -880,24 +862,25 @@
         "product_code": "SI-B8V521560WW",
         "cct": 3000,
         "cri": 80,
-        "price": 19.577
+        "price": 19.616
       },
       {
         "product_code": "SI-B8U521560WW",
         "cct": 3500,
-        "cri": 80
+        "cri": 80,
+        "price": 19.616
       },
       {
         "product_code": "SI-B8T521560WW",
         "cct": 4000,
         "cri": 80,
-        "price": 19.5592792
+        "price": 19.674731199999997
       },
       {
         "product_code": "SI-B8R521560WW",
         "cct": 5000,
         "cri": 80,
-        "price": 19.2207884
+        "price": 19.3342424
       }
     ]
   },
@@ -905,9 +888,8 @@
     "model": "LT-FB22B",
     "seller": "Samsung",
     "led": "LM561C",
-    "parallel_number": 9,
-    "series_number": 16,
-    "max_current": 1.8,
+    "parallel_count": 9,
+    "series_count": 16,
     "dimensions": {
       "length": 1120.0,
       "width": 18.0
@@ -923,19 +905,19 @@
         "product_code": "SI-B8U521B20WW",
         "cct": 3500,
         "cri": 80,
-        "price": 20.201
+        "price": 20.24
       },
       {
         "product_code": "SI-B8T521B20WW",
         "cct": 4000,
         "cri": 80,
-        "price": 20.201
+        "price": 20.24
       },
       {
         "product_code": "SI-B8R521B20WW",
         "cct": 5000,
         "cri": 80,
-        "price": 19.5684276
+        "price": 20.24
       }
     ]
   },
@@ -943,9 +925,8 @@
     "model": "LT-FB24B",
     "seller": "Samsung",
     "led": "LM561C",
-    "parallel_number": 18,
-    "series_number": 16,
-    "max_current": 3.6,
+    "parallel_count": 18,
+    "series_count": 16,
     "dimensions": {
       "length": 1120.0,
       "width": 39.8
@@ -955,12 +936,13 @@
         "product_code": "SI-B8VZ91B20WW",
         "cct": 3000,
         "cri": 80,
-        "price": 33.662
+        "price": 33.713
       },
       {
         "product_code": "SI-B8UZ91B20WW",
         "cct": 3500,
-        "cri": 80
+        "cri": 80,
+        "price": 33.713
       },
       {
         "product_code": "SI-B8TZ91B20WW",

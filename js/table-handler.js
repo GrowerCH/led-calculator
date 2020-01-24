@@ -55,7 +55,8 @@ function createSubHead(body, module, version) {
     url.target = "_blank";
 
     let ledText = document.createElement("SMALL");
-    ledText.innerText = " " + (module["parallel_number"] * module["series_number"]) + "x " + module["led"];
+    let count = module["parallel_count"] * module["series_count"];
+    ledText.innerText = " " + count + "x " + module["led"];
 
     subHeadCell.appendChild(sellerText);
     subHeadCell.appendChild(url);
