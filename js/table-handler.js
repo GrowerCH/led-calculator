@@ -10,29 +10,29 @@ function createTable(table) {
         headCell.setAttribute("data-toggle", "tooltip");
         headRow.appendChild(headCell);
     }
-
-    table.createTBody();
 }
 
 function updateTable(table, modules) {
-    let body = table.tBodies[0];
-
-    body.innerHTML = "";
+    for (let tbody of Array.from(table.tBodies)) {
+        tbody.remove();
+    }
 
     for (let module of modules) {
 
         for (let version of module["versions"]) {
-            createSubHead(body, module, version);
+            let body = table.createTBody();
+
+            createHeaderRow(body, module, version);
 
             for (let specs of version["specs"]) {
 
-                createRow(body, specs, specs.workload >= 75);
+                createSpecsRow(body, specs, specs.workload >= 75);
             }
         }
     }
 }
 
-function createSubHead(body, module, version) {
+function createHeaderRow(body, module, version) {
     let subHeadRow = body.insertRow();
 
     let subHeadCell = document.createElement("TH");
@@ -56,15 +56,40 @@ function createSubHead(body, module, version) {
 
     let ledText = document.createElement("SMALL");
     let count = module["parallel_count"] * module["series_count"];
-    ledText.innerText = " " + count + "x " + module["led"];
+    ledText.innerText = " " + count + "x " + module["led"] + " ";
+
+    let hideButton = document.createElement("BUTTON");
+    hideButton.className = minusButtonClass;
+    hideButton.addEventListener("click", () => {
+        hideButtonClick(body, hideButton);
+    });
 
     subHeadCell.appendChild(sellerText);
     subHeadCell.appendChild(url);
     subHeadCell.appendChild(ledText);
+    subHeadCell.appendChild(hideButton);
     subHeadRow.appendChild(subHeadCell);
 }
 
-function createRow(body, specs, gray) {
+const minusButtonClass = "btn far fa-minus-square";
+const plusButtonClass = "btn far fa-plus-square";
+
+function hideButtonClick(body, button) {
+    let hidden = button.className == plusButtonClass;
+    button.className = hidden ? minusButtonClass : plusButtonClass;
+    for (let child of body.childNodes) {
+        if (child == body.firstChild) {
+            continue;
+        }
+        if (hidden) {
+            child.removeAttribute("hidden");
+        } else {
+            child.setAttribute("hidden", true);
+        }
+    }
+}
+
+function createSpecsRow(body, specs, gray) {
     let row = body.insertRow();
 
     if (gray) {
@@ -93,10 +118,7 @@ function addDriverCell(row, amount, current, voltage) {
     let url = document.createElement("A");
     url.href = "https://growerch.github.io/driver-calculator?a=" + amount + "&c=" + current + "&v=" + voltage;
     url.target = "_blank";
-
-    let icon = document.createElement("I");
-    icon.className = "fas fa-external-link-alt";
-    url.appendChild(icon);
+    url.className = "fas fa-external-link-alt";
 
     row.insertCell().appendChild(url);
 }
