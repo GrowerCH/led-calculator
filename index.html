@@ -70,17 +70,16 @@
         <div class="card-body">
 
             <div class="input-group" data-toggle="tooltip"
-                 title="Für die Blüte wird bei Pflanzen eine Beleuchtungsstärke von 50000-70000 lm/m² empfohlen">
+                 title="Für die Blüte wird bei Pflanzen ein PAR Wert (Photosynthetisch aktive Strahlung) von 700-1000 PPFD empfohlen">
                 <div class="input-group-prepend">
-                    <div class="input-group-text">Lichtstromd.</div>
+                    <div class="input-group-text">PAR (PPFD)</div>
                 </div>
-                <input id="OUTPUT_LUMEN" class="form-control bg-dark text-light" type="number" value="60000" readonly>
+                <input id="OUTPUT_PPFD" class="form-control bg-dark text-light" type="number" value="900" readonly>
                 <div class="input-group-append">
-                    <div class="input-group-text">lm/m² (Lux)</div>
+                    <div class="input-group-text">µmol/(m²s)</div>
                 </div>
             </div>
-            <input id="INPUT_LUMEN" class="custom-range" type="range" min="10000" max="99999" value="60000"
-                   step="1000">
+            <input id="INPUT_PPFD" class="custom-range" type="range" min="100" max="1500" value="900" step="50">
 
             <br>
             <br>
@@ -195,15 +194,15 @@
         }
     }
 
-    // ========================================================= Lumen
+    // ========================================================= PPFD
 
-    let OUTPUT_LUMEN = document.getElementById("OUTPUT_LUMEN");
-    let INPUT_LUMEN = document.getElementById("INPUT_LUMEN");
-    INPUT_LUMEN.addEventListener("input", setOutputLumen);
-    INPUT_LUMEN.addEventListener("change", generateTable);
+    let OUTPUT_PPFD = document.getElementById("OUTPUT_PPFD");
+    let INPUT_PPFD = document.getElementById("INPUT_PPFD");
+    INPUT_PPFD.addEventListener("input", setOutputPPFD);
+    INPUT_PPFD.addEventListener("change", generateTable);
 
-    function setOutputLumen() {
-        OUTPUT_LUMEN.value = INPUT_LUMEN.value;
+    function setOutputPPFD() {
+        OUTPUT_PPFD.value = INPUT_PPFD.value;
     }
 
     // ========================================================= Efficiency
@@ -246,7 +245,7 @@
 
         moduleList = filterModulesByCCT(moduleList, SELECT_CCT.value);
 
-        moduleList = calculateSpecs(moduleList, INPUT_LUMEN.value, OUTPUT_AREA.value, getGrowHours());
+        moduleList = calculateSpecs(moduleList, INPUT_PPFD.value, OUTPUT_AREA.value, getGrowHours());
 
         if (updateRange === true) {
             let efficiencyRange = getEfficiencyRange(moduleList);

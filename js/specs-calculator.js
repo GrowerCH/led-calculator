@@ -25,7 +25,7 @@ function calculateFlux(version, Current) {
     return Flux * (FluxPolyX3 * (Current * Current * Current) + FluxPolyX2 * (Current * Current) + FluxPolyX1 * Current + FluxPolyA);
 }
 
-function calculate(module, moduleVersion, led, ledVersion, current, lumenInput, areaInput, usageInput) {
+function calculate(module, moduleVersion, led, ledVersion, current, ppfdInput, areaInput, usageInput) {
     let series = module["series_count"];
     let parallel = module["parallel_count"];
     let count = series * parallel;
@@ -45,18 +45,19 @@ function calculate(module, moduleVersion, led, ledVersion, current, lumenInput, 
 
     let voltage = calculateVoltage(ledVersion, ledCurrent) * series;
     let flux = calculateFlux(ledVersion, ledCurrent) * count;
+    let ppfd = flux * parConversion;
 
-    let amount = Math.round(lumenInput * areaInput / flux);
+    let amount = Math.round(ppfdInput * areaInput / ppfd);
+
+    let totalFlux = flux * amount;
+    let totalPPFD = ppfd * amount;
 
     let totalVoltage = voltage * amount;
     let totalWattage = totalVoltage * current;
 
-    let totalFlux = flux * amount;
     let efficiency = totalFlux / totalWattage;
+    let parEfficiency = totalPPFD / totalWattage;
     let workload = ledCurrent / maxCurrent * 100;
-
-    let ppfd = totalFlux / areaInput * parConversion;
-    let parEfficiency = totalFlux * parConversion / totalWattage;
 
     let totalPrice = price * amount;
     let diodePrice = price / count;
@@ -74,7 +75,7 @@ function calculate(module, moduleVersion, led, ledVersion, current, lumenInput, 
         Math.round(workload),
         Math.round(totalFlux),
         Math.round(efficiency),
-        Math.round(ppfd),
+        Math.round(totalPPFD),
         parEfficiency.toFixed(2),
         Math.round(totalPrice),
         diodePrice.toFixed(2),
