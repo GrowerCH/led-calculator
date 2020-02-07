@@ -44,19 +44,22 @@ function calculate(module, moduleVersion, led, ledVersion, current, ppfdInput, a
     //
 
     let voltage = calculateVoltage(ledVersion, ledCurrent) * series;
-    let flux = calculateFlux(ledVersion, ledCurrent) * count;
-    let ppfd = flux * parConversion;
 
-    let amount = Math.round(ppfdInput * areaInput / ppfd);
+    let flux = calculateFlux(ledVersion, ledCurrent) * count;
+    let ppf = flux * parConversion;
+    let ppfd = ppf / areaInput;
+
+    let amount = Math.round(ppfdInput / ppfd);
 
     let totalFlux = flux * amount;
+    let totalPPF = ppf * amount;
     let totalPPFD = ppfd * amount;
 
     let totalVoltage = voltage * amount;
     let totalWattage = totalVoltage * current;
 
     let efficiency = totalFlux / totalWattage;
-    let parEfficiency = totalPPFD / totalWattage;
+    let parEfficiency = totalPPF / totalWattage;
     let workload = ledCurrent / maxCurrent * 100;
 
     let totalPrice = price * amount;
