@@ -75,19 +75,6 @@ function filterModulesByEfficiency(modules, minEfficiency) {
     });
 }
 
-function compareEfficiency(a, b) {
-    let efficiencyA = a["versions"][0]["specs"][0].efficiency;
-    let efficiencyB = b["versions"][0]["specs"][0].efficiency;
-
-    if (efficiencyA > efficiencyB) {
-        return -1;
-    } else if (efficiencyA < efficiencyB) {
-        return 1;
-    } else {
-        return 0;
-    }
-}
-
 function getEfficiencyRange(modules) {
     let result = {};
     result.best = 0;
