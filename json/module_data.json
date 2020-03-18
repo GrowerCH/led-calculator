@@ -285,25 +285,24 @@
         "product_code": "SI-B8V051280US",
         "cct": 3000,
         "cri": 80,
-        "price": 2.1476
+        "price": 4.23878
       },
       {
         "product_code": "SI-B8U051280US",
         "cct": 3500,
-        "cri": 80,
-        "price": 5.28255
+        "cri": 80
       },
       {
         "product_code": "SI-B8T051280US",
         "cct": 4000,
         "cri": 80,
-        "price": 5.28255
+        "price": 5.112380000000001
       },
       {
         "product_code": "SI-B8R051280US",
         "cct": 5000,
         "cri": 80,
-        "price": 2.96933
+        "price": 1.45418
       }
     ]
   },
@@ -332,13 +331,13 @@
         "product_code": "SI-B8T101560US",
         "cct": 4000,
         "cri": 80,
-        "price": 3.8220000000000005
+        "price": 9.0272
       },
       {
         "product_code": "SI-B8R101560US",
         "cct": 5000,
         "cri": 80,
-        "price": 9.35207
+        "price": 8.98352
       }
     ]
   },
@@ -357,7 +356,7 @@
         "product_code": "SI-B8V201B20US",
         "cct": 3000,
         "cri": 80,
-        "price": 17.35006
+        "price": 15.537340000000002
       },
       {
         "product_code": "SI-B8U201B20US",
@@ -368,13 +367,13 @@
         "product_code": "SI-B8T201B20US",
         "cct": 4000,
         "cri": 80,
-        "price": 18.232760000000003
+        "price": 17.7723
       },
       {
         "product_code": "SI-B8R201B20US",
         "cct": 5000,
         "cri": 80,
-        "price": 18.232760000000003
+        "price": 17.736810000000002
       }
     ]
   },
@@ -444,7 +443,7 @@
         "product_code": "SI-B8T05128HEU",
         "cct": 4000,
         "cri": 80,
-        "price": 1.69897
+        "price": 1.64983
       }
     ]
   },
@@ -486,25 +485,25 @@
         "product_code": "SI-B8V221B2HUS",
         "cct": 3000,
         "cri": 80,
-        "price": 20.42677
+        "price": 18.56946
       },
       {
         "product_code": "SI-B8U221B2HUS",
         "cct": 3500,
         "cri": 80,
-        "price": 20.07551
+        "price": 18.25005
       },
       {
         "product_code": "SI-B8T221B2HUS",
         "cct": 4000,
         "cri": 80,
-        "price": 18.17816
+        "price": 16.5256
       },
       {
         "product_code": "SI-B8R221B2HUS",
         "cct": 5000,
         "cri": 80,
-        "price": 21.713510000000003
+        "price": 19.739720000000002
       }
     ]
   },
@@ -523,25 +522,25 @@
         "product_code": "SI-B8V11156HUS",
         "cct": 3000,
         "cri": 80,
-        "price": 9.13549
+        "price": 8.47028
       },
       {
         "product_code": "SI-B8U11156HUS",
         "cct": 3500,
         "cri": 80,
-        "price": 5.2325
+        "price": 5.12694
       },
       {
         "product_code": "SI-B8T11156HUS",
         "cct": 4000,
         "cri": 80,
-        "price": 5.00318
+        "price": 4.7374600000000004
       },
       {
         "product_code": "SI-B8R11156HUS",
         "cct": 5000,
         "cri": 80,
-        "price": 9.994530000000001
+        "price": 8.451170000000001
       }
     ]
   },
@@ -560,25 +559,25 @@
         "product_code": "SI-B8V05128HUS",
         "cct": 3000,
         "cri": 80,
-        "price": 6.09609
+        "price": 5.5419
       },
       {
         "product_code": "SI-B8U05128HUS",
         "cct": 3500,
         "cri": 80,
-        "price": 6.09609
+        "price": 5.5419
       },
       {
         "product_code": "SI-B8T05128HUS",
         "cct": 4000,
         "cri": 80,
-        "price": 6.09609
+        "price": 5.5419
       },
       {
         "product_code": "SI-B8R05128HUS",
         "cct": 5000,
         "cri": 80,
-        "price": 6.09609
+        "price": 5.5419
       }
     ]
   },
@@ -597,7 +596,7 @@
         "product_code": "SL-B8V1N30LAWW",
         "cct": 3000,
         "cri": 80,
-        "price": 9.156419999999999
+        "price": 8.32468
       },
       {
         "product_code": "SL-B8U1N30LAWW",
@@ -608,13 +607,13 @@
         "product_code": "SL-B8T1N30LAWW",
         "cct": 4000,
         "cri": 80,
-        "price": 9.156419999999999
+        "price": 8.32468
       },
       {
         "product_code": "SL-B8R1N30LAWW",
         "cct": 5000,
         "cri": 80,
-        "price": 2.275
+        "price": 7.81144
       }
     ]
   },
@@ -633,7 +632,7 @@
         "product_code": "SL-B8V1N60LAWW",
         "cct": 3000,
         "cri": 80,
-        "price": 8.07807
+        "price": 7.72135
       },
       {
         "product_code": "SL-B8U1N60LAWW",
@@ -644,13 +643,13 @@
         "product_code": "SL-B8T1N60LAWW",
         "cct": 4000,
         "cri": 80,
-        "price": 7.8988
+        "price": 6.64482
       },
       {
         "product_code": "SL-B8R1N60LAWW",
         "cct": 5000,
         "cri": 80,
-        "price": 8.07807
+        "price": 7.72135
       }
     ]
   },
@@ -669,7 +668,7 @@
         "product_code": "SL-B8V2N70LAWW",
         "cct": 3000,
         "cri": 80,
-        "price": 11.546990000000001
+        "price": 11.05195
       },
       {
         "product_code": "SL-B8U2N70LAWW",
@@ -680,13 +679,13 @@
         "product_code": "SL-B8T2N70LAWW",
         "cct": 4000,
         "cri": 80,
-        "price": 11.14568
+        "price": 10.68704
       },
       {
         "product_code": "SL-B8R2N70LAWW",
         "cct": 5000,
         "cri": 80,
-        "price": 4.368
+        "price": 11.05195
       }
     ]
   },
@@ -705,25 +704,25 @@
         "product_code": "SL-B8V2N80LAWW",
         "cct": 3000,
         "cri": 80,
-        "price": 10.6379
+        "price": 8.970780000000001
       },
       {
         "product_code": "SL-B8U2N80LAWW",
         "cct": 3500,
         "cri": 80,
-        "price": 10.6379
+        "price": 8.970780000000001
       },
       {
         "product_code": "SL-B8T2N80LAWW",
         "cct": 4000,
         "cri": 80,
-        "price": 10.54417
+        "price": 9.081800000000001
       },
       {
         "product_code": "SL-B8R2N80LAWW",
         "cct": 5000,
         "cri": 80,
-        "price": 4.186
+        "price": 13.33878
       }
     ]
   },
@@ -742,25 +741,25 @@
         "product_code": "SL-B8V3N80LAWW",
         "cct": 3000,
         "cri": 80,
-        "price": 14.4144
+        "price": 17.41649
       },
       {
         "product_code": "SL-B8U3N80LAWW",
         "cct": 3500,
         "cri": 80,
-        "price": 7.584850000000001
+        "price": 7.57211
       },
       {
         "product_code": "SL-B8T3N80LAWW",
         "cct": 4000,
         "cri": 80,
-        "price": 18.92254
+        "price": 17.41649
       },
       {
         "product_code": "SL-B8R3N80LAWW",
         "cct": 5000,
         "cri": 80,
-        "price": 20.50321
+        "price": 18.63953
       }
     ]
   },
@@ -779,7 +778,7 @@
         "product_code": "SL-B8V4N90LAWW",
         "cct": 3000,
         "cri": 80,
-        "price": 24.0058
+        "price": 22.031100000000002
       },
       {
         "product_code": "SL-B8U4N90LAWW",
@@ -790,13 +789,13 @@
         "product_code": "SL-B8T4N90LAWW",
         "cct": 4000,
         "cri": 80,
-        "price": 20.64153
+        "price": 19.7925
       },
       {
         "product_code": "SL-B8R4N90LAWW",
         "cct": 5000,
         "cri": 80,
-        "price": 19.4103
+        "price": 18.4912
       }
     ]
   },
@@ -815,25 +814,25 @@
         "product_code": "SI-B8V261560WW",
         "cct": 3000,
         "cri": 80,
-        "price": 11.392290000000001
+        "price": 10.458630000000001
       },
       {
         "product_code": "SI-B8U261560WW",
         "cct": 3500,
         "cri": 80,
-        "price": 13.189540000000001
+        "price": 11.140220000000001
       },
       {
         "product_code": "SI-B8T261560WW",
         "cct": 4000,
         "cri": 80,
-        "price": 13.524420000000001
+        "price": 11.391380000000002
       },
       {
         "product_code": "SI-B8R261560WW",
         "cct": 5000,
         "cri": 80,
-        "price": 12.867400000000002
+        "price": 6.90872
       }
     ]
   },
@@ -852,25 +851,25 @@
         "product_code": "SI-B8V521560WW",
         "cct": 3000,
         "cri": 80,
-        "price": 20.070050000000002
+        "price": 18.2455
       },
       {
         "product_code": "SI-B8U521560WW",
         "cct": 3500,
         "cri": 80,
-        "price": 20.070050000000002
+        "price": 18.2455
       },
       {
         "product_code": "SI-B8T521560WW",
         "cct": 4000,
         "cri": 80,
-        "price": 20.54962
+        "price": 9.16734
       },
       {
         "product_code": "SI-B8R521560WW",
         "cct": 5000,
         "cri": 80,
-        "price": 16.716700000000003
+        "price": 15.743
       }
     ]
   },
@@ -893,20 +892,19 @@
       {
         "product_code": "SI-B8U521B20WW",
         "cct": 3500,
-        "cri": 80,
-        "price": 20.70887
+        "cri": 80
       },
       {
         "product_code": "SI-B8T521B20WW",
         "cct": 4000,
         "cri": 80,
-        "price": 20.70887
+        "price": 18.82608
       },
       {
         "product_code": "SI-B8R521B20WW",
         "cct": 5000,
         "cri": 80,
-        "price": 20.70887
+        "price": 18.82608
       }
     ]
   },
@@ -925,25 +923,24 @@
         "product_code": "SI-B8VZ91B20WW",
         "cct": 3000,
         "cri": 80,
-        "price": 34.49355
+        "price": 31.357690000000005
       },
       {
         "product_code": "SI-B8UZ91B20WW",
         "cct": 3500,
-        "cri": 80,
-        "price": 34.49355
+        "cri": 80
       },
       {
         "product_code": "SI-B8TZ91B20WW",
         "cct": 4000,
         "cri": 80,
-        "price": 40.20562
+        "price": 36.55106
       },
       {
         "product_code": "SI-B8RZ91B20WW",
         "cct": 5000,
         "cri": 80,
-        "price": 39.93717
+        "price": 36.30627
       }
     ]
   }
